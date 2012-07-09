@@ -44,16 +44,14 @@ public class WordCounter {
 		}
 	}
 
-	public Map<String, Integer> getWordWordCountMap(int maxOccurs) {
+	public Map<String, Integer> getWordWordCountMap() {
 		wordCountMap = new TreeMap<String, Integer>(newAscIntComparator());
 		List<Integer> listInteger = arffVector.getList();
 		int listIntegerSize = listInteger.size();
 		for (int i = 0; i < listIntegerSize; i++) {
 			Integer count = listInteger.get(i);
 			String word = wordList.get(i);
-			if (count >= maxOccurs) {
-				wordCountMap.put(word, count);
-			}
+			wordCountMap.put(word, count);
 			i++;
 		}
 		return wordCountMap;
