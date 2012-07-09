@@ -10,5 +10,6 @@ public class Main {
 		int numberOfAttributes = Integer.parseInt(args[0]);
 		Controller controller = new Controller();
 		controller.go(numberOfAttributes);
+		System.out.println("done");
 	}
 }

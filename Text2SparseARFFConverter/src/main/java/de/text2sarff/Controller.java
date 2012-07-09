@@ -3,29 +3,28 @@ package de.text2sarff;
 import java.util.List;
 import java.util.Map;
 
-import de.text2sarff.arff.ARFFDataCreator;
-import de.text2sarff.arff.ARFFHeaderCreator;
-import de.text2sarff.arff.WordCounter;
-import de.text2sarff.arff.WordListReducer;
-import de.text2sarff.lineparser.LineParser;
+import de.text2sarff.bookWord.BookWordCounter;
+import de.text2sarff.bookWord.BookWordListCreator;
+import de.text2sarff.bookWord.BookWordListReducer;
+import de.text2sarff.sarff.ARFFDataCreator;
+import de.text2sarff.sarff.ARFFHeaderCreator;
 
 public class Controller {
-	
-	public void go(int numberOfAttributes){
-		LineParser lineParser = new LineParser();
-		List<String> wordList = lineParser.createWordList();
-		WordCounter wordCounter = new WordCounter(wordList);
-		wordCounter.countWords();
-		Map<String, Integer> wordCountMap = wordCounter
+
+	public void go(int aNumberOfAttributes) {
+		BookWordListCreator bookWordListCreator = new BookWordListCreator();
+		List<String> bookWordList = bookWordListCreator.createBookWordList();
+		BookWordCounter bookWordCounter = new BookWordCounter(bookWordList);
+		bookWordCounter.countBookWords();
+		Map<String, Integer> bookWordCountMap = bookWordCounter
 				.getWordWordCountMap();
-		WordListReducer wordListReducer = new WordListReducer();
-		wordList = wordListReducer.reduceWordList(numberOfAttributes,
-				wordCountMap);
+		BookWordListReducer bookWordListReducer = new BookWordListReducer();
+		List<String> reducedBookWordList = bookWordListReducer
+				.reduceBookWordList(aNumberOfAttributes, bookWordCountMap);
 		ARFFHeaderCreator arffHeader = new ARFFHeaderCreator();
-		arffHeader.createARFFHeader(wordList);
-		ARFFDataCreator arffData = new ARFFDataCreator(wordList);
-		arffData.createVectors();
-		System.out.println("done");
+		arffHeader.createARFFHeader(reducedBookWordList);
+		ARFFDataCreator arffData = new ARFFDataCreator(reducedBookWordList);
+		arffData.createARFFData();
 	}
 
 }

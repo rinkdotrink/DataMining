@@ -1,37 +1,121 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<diagram program="umlet" version="11.4">
+<diagram program="umlet" version="11.5.1">
   <zoom_level>10</zoom_level>
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>80</x>
-      <y>70</y>
-      <w>180</w>
+      <x>70</x>
+      <y>0</y>
+      <w>190</w>
       <h>130</h>
     </coordinates>
-    <panel_attributes>LineParser</panel_attributes>
+    <panel_attributes>BookWordListCreator
+--
+bookWordList : List&lt;String&gt;</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>320</x>
+      <x>380</x>
+      <y>550</y>
+      <w>190</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>ARFFVector
+--
+versWordList : List&lt;Integer&gt;
+writer : Writer</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>70</x>
+      <y>390</y>
+      <w>190</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>ARFFHeaderCreator
+--
+writer : Writer
+reducedBookWordList : List</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>70</x>
+      <y>550</y>
+      <w>240</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>ARFFDataCreator
+--
+reader : Reader
+reducedBookWordList : List&lt;String&gt;</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>70</x>
+      <y>160</y>
+      <w>290</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>BookWordCounter
+--
+bookWordList : List&lt;String&gt;
+bookWordCountMap : Map&lt;String, Integer&gt;
+reader : Reader</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>70</x>
+      <y>310</y>
+      <w>160</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>BookWordListReducer</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>280</x>
+      <y>560</y>
+      <w>120</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>30;30;100;30</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>330</x>
       <y>170</y>
-      <w>100</w>
-      <h>30</h>
+      <w>160</w>
+      <h>50</h>
     </coordinates>
-    <panel_attributes>ARFFVector</panel_attributes>
-    <additional_attributes/>
+    <panel_attributes/>
+    <additional_attributes>140;30;30;30</additional_attributes>
   </element>
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>320</x>
-      <y>70</y>
-      <w>170</w>
-      <h>40</h>
+      <x>470</x>
+      <y>160</y>
+      <w>200</w>
+      <h>110</h>
     </coordinates>
-    <panel_attributes>ARFFHeaderCreator</panel_attributes>
+    <panel_attributes>BookVektor
+--
+bookWordList : List&lt;Integer&gt;
+</panel_attributes>
     <additional_attributes/>
   </element>
 </diagram>
