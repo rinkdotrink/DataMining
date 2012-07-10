@@ -1,0 +1,14 @@
+\section{Hürden beim Einlesen der ARFF-Datei}\label{Huerden}
+Die erzeugte ARFF-Datei wird für das AT 900 MB groß. In Weka kommt auf dem Testrechner beim Einlesen der 900MB großen ARFF-Datei die Fehlermeldung "`OutOfMemory"'. Und Weka hat sich darauf hin geschlossen.
+In der Konfigurationsdatei RunWeka.ini konnte der Parameter maxheap nur auf höchstens 1550m gesetzt werden. Wird mehr Platz für den heap space angegeben, kommt eine Fehlermeldung von der JVM.
+Darauf hin wurde von einem 32Bit-Java auf ein 64Bit-Java gewechselt. Damit verschwanden beide Fehlermeldungen und es konnte der maxheap auf 8000m gesetzt werden.
+
+Wird die ARFF-Datei eingelesen, braucht Weka bzw. die JVM dafür 6,8 GB Arbeitsspeicher. Auf dem Entwicklungsrechner stehen aber nur 8GB zur Verfügung. Es wird davon ausgegangen, dass für die Anwendung einiger Clusteralgorithmen der restliche Arbeitsspeicher nicht ausreicht und die Geschwindigkeit durch Swapping ausgebremst wird.
+
+Um die Größe der ARFF-Datei zu reduzieren, gibt es das Format Sparse ARFF, dass auch große Datenmengen kompakt speichern kann.
+
+Sparse ARFF Dateien sind gewöhnlichen AARF Dateien ähnlich, außer das Attribute mit dem Wert 0 nicht repräsentiert werden. Nicht-Null Attribute werden durch die Attributnummer und den Wert angegeben.
+
+Durch Sparse ARFF konnte die Dateigröße von 900MB auf 4 MB reduziert werden.
+Die Datei wird dadurch auch schneller von Weka eingelesen und Weka braucht weniger RAM.
+http://wiki.pentaho.com/display/DATAMINING/

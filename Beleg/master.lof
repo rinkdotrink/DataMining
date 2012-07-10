@@ -1,5 +1,11 @@
 \select@language {ngerman}
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Aufbau des AT}}{3}{figure.1.1}
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Analyseklassendiagramm Text2ARFFConverter}}{6}{figure.1.2}
+\contentsline {figure}{\numberline {1.3}{\ignorespaces Entwurfsklassendiagramm Text2ARFFConverter}}{7}{figure.1.3}
+\contentsline {figure}{\numberline {1.4}{\ignorespaces Ausf\"uhrungszeiten von SimpleKMeans}}{9}{figure.1.4}
+\contentsline {figure}{\numberline {1.5}{\ignorespaces Analyseklassendiagramm Text2ClusterFile}}{11}{figure.1.5}
+\contentsline {figure}{\numberline {1.6}{\ignorespaces Entwurfsklassendiagramm Text2ClusterFile}}{12}{figure.1.6}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

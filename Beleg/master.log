@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.1.16)  10 JUL 2012 22:30
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.1.16)  10 JUL 2012 23:35
 entering extended mode
 **C:/Users/Ingo/Documents/JavaProjekte/wsDataMining/Beleg/master.tex
 (C:/Users/Ingo/Documents/JavaProjekte/wsDataMining/Beleg/master.tex
@@ -488,63 +488,164 @@ tex)
 (C:\Users\Ingo\Documents\JavaProjekte\wsDataMining\Beleg\Ingo/RelevanzForschung
 sgegenstand.tex)
 (C:\Users\Ingo\Documents\JavaProjekte\wsDataMining\Beleg\Ingo/AktuellerWissenss
-tand.tex) [1
+tand.tex [1
 
-]
+])
+(C:\Users\Ingo\Documents\JavaProjekte\wsDataMining\Beleg\Ingo/Testrechner.tex)
+(C:\Users\Ingo\Documents\JavaProjekte\wsDataMining\Beleg\Ingo/AufbauAT.tex
+[2] <Ingo/Bilder/AufbauAT.png, id=191, 356.83313pt x 67.75313pt>
+File: Ingo/Bilder/AufbauAT.png Graphic file (type png)
+
+<use Ingo/Bilder/AufbauAT.png>
+Package pdftex.def Info: Ingo/Bilder/AufbauAT.png used on input line 13.
+(pdftex.def)             Requested size: 418.25368pt x 79.41866pt.
+)
+(C:\Users\Ingo\Documents\JavaProjekte\wsDataMining\Beleg\Ingo/ARFF.tex [3 <C:/U
+sers/Ingo/Documents/JavaProjekte/wsDataMining/Beleg/Ingo/Bilder/AufbauAT.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 16--19
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--24
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--35
+
+ []
+
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 38--42
+
+ []
+
+) (C:\Users\Ingo\Documents\JavaProjekte\wsDataMining\Beleg\Ingo/ATzuARFF.tex
+<Ingo/Bilder/Analyseklassendiagramm_Text2ARFFConverter.png, id=203, 552.0625pt 
+x 652.4375pt>
+File: Ingo/Bilder/Analyseklassendiagramm_Text2ARFFConverter.png Graphic file (t
+ype png)
+ <use Ingo/Bilder/Analyseklassendiagramm_Text2ARFFConverter.png>
+Package pdftex.def Info: Ingo/Bilder/Analyseklassendiagramm_Text2ARFFConverter.
+png used on input line 10.
+(pdftex.def)             Requested size: 418.25368pt x 494.32452pt.
+
+<Ingo/Bilder/Entwurfsklassendiagramm_Text2ARFFConverter.png, id=206, 833.1125pt
+ x 1264.725pt>
+File: Ingo/Bilder/Entwurfsklassendiagramm_Text2ARFFConverter.png Graphic file (
+type png)
+
+<use Ingo/Bilder/Entwurfsklassendiagramm_Text2ARFFConverter.png>
+Package pdftex.def Info: Ingo/Bilder/Entwurfsklassendiagramm_Text2ARFFConverter
+.png used on input line 21.
+(pdftex.def)             Requested size: 418.25368pt x 634.9469pt.
+
+
+LaTeX Warning: Float too large for page by 24.26549pt on input line 24.
+
+[5])
+(C:\Users\Ingo\Documents\JavaProjekte\wsDataMining\Beleg\Ingo/WelcheWoerter.tex
+) (C:\Users\Ingo\Documents\JavaProjekte\wsDataMining\Beleg\Ingo/Probleme.tex
+[6 <C:/Users/Ingo/Documents/JavaProjekte/wsDataMining/Beleg/Ingo/Bilder/Analyse
+klassendiagramm_Text2ARFFConverter.png (PNG copy)>] [7 <C:/Users/Ingo/Documents
+/JavaProjekte/wsDataMining/Beleg/Ingo/Bilder/Entwurfsklassendiagramm_Text2ARFFC
+onverter.png (PNG copy)>] [8])
+(C:\Users\Ingo\Documents\JavaProjekte\wsDataMining\Beleg\Ingo/SimpleKMeans.tex
+<Ingo/Bilder/SimpleKMeans.png, id=224, 602.25pt x 372.39125pt>
+File: Ingo/Bilder/SimpleKMeans.png Graphic file (type png)
+
+<use Ingo/Bilder/SimpleKMeans.png>
+Package pdftex.def Info: Ingo/Bilder/SimpleKMeans.png used on input line 6.
+(pdftex.def)             Requested size: 418.25368pt x 258.63217pt.
+)
+(C:\Users\Ingo\Documents\JavaProjekte\wsDataMining\Beleg\Ingo/weitereClusterAlg
+.tex [9 <C:/Users/Ingo/Documents/JavaProjekte/wsDataMining/Beleg/Ingo/Bilder/Si
+mpleKMeans.png (PNG copy)>])
+(C:\Users\Ingo\Documents\JavaProjekte\wsDataMining\Beleg\Ingo/Text2ClusterFile.
+tex
+Overfull \hbox (8.05858pt too wide) in paragraph at lines 4--5
+[]\OT1/cmr/m/n/12 In Ab-bil-dung [][]1.5[][] auf Sei-te [][]11[][] ist das Ent-
+wurfs-klas-sen-dia-gramm von Text2ClusterFile
+ []
+
+
+<Ingo/Bilder/AnalyseklassendiagrammText2ClusterFile.png, id=233, 702.625pt x 34
+1.275pt>
+File: Ingo/Bilder/AnalyseklassendiagrammText2ClusterFile.png Graphic file (type
+ png)
+ <use Ingo/Bilder/AnalyseklassendiagrammText2ClusterFile.png>
+Package pdftex.def Info: Ingo/Bilder/AnalyseklassendiagrammText2ClusterFile.png
+ used on input line 8.
+(pdftex.def)             Requested size: 418.25368pt x 203.15747pt.
+
+<Ingo/Bilder/EntwurfsklassendiagrammText2ClusterFile.png, id=234, 682.55pt x 85
+3.1875pt>
+File: Ingo/Bilder/EntwurfsklassendiagrammText2ClusterFile.png Graphic file (typ
+e png)
+ <use Ingo/Bilder/EntwurfsklassendiagrammText2ClusterFile.png>
+Package pdftex.def Info: Ingo/Bilder/EntwurfsklassendiagrammText2ClusterFile.pn
+g used on input line 15.
+(pdftex.def)             Requested size: 418.25368pt x 522.82602pt.
+)
+[10] [11 <C:/Users/Ingo/Documents/JavaProjekte/wsDataMining/Beleg/Ingo/Bilder/A
+nalyseklassendiagrammText2ClusterFile.png (PNG copy)>] [12 <C:/Users/Ingo/Docum
+ents/JavaProjekte/wsDataMining/Beleg/Ingo/Bilder/EntwurfsklassendiagrammText2Cl
+usterFile.png (PNG copy)>]
 Kapitel 2.
 
 (C:\Users\Ingo\Documents\JavaProjekte\wsDataMining\Beleg\Ingo/Zusammenfassung.t
 ex) (C:\Users\Ingo\Documents\JavaProjekte\wsDataMining\Beleg\Ingo/Ausblick.tex)
-[2
+[13
 
 ]
 Anhang A.
-(C:\Users\Ingo\Documents\JavaProjekte\wsDataMining\Beleg\listings.tex [3
+(C:\Users\Ingo\Documents\JavaProjekte\wsDataMining\Beleg\listings.tex [14
 
 ]
-[4]
+[15]
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 67.
  ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 67.
- [5])
+ [16])
 (C:\Users\Ingo\Documents\JavaProjekte\wsDataMining\Beleg\Arbeitsaufteilung.tex
-[6]
+[17]
 Anhang B.
-) [7
+) [18
 
 ]
 Anhang C.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 167.
-[8
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 177.
+[19
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 167.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 177.
  (C:\Users\Ingo\Documents\JavaProjekte\wsDataMining\Beleg\master.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 167.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 167.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 177.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 177.
 Package rerunfilecheck Info: File `master.out' has not changed.
-(rerunfilecheck)             Checksum: CE4E3EA31DC7E150039A77716D8E0256;712.
+(rerunfilecheck)             Checksum: 627FA49A977EC761D9A31E5999FE8E7E;1575.
  ) 
 Here is how much of TeX's memory you used:
- 8851 strings out of 494045
- 133199 string characters out of 3145972
- 448498 words of memory out of 3000000
- 11892 multiletter control sequences out of 15000+200000
+ 8994 strings out of 494045
+ 137542 string characters out of 3145972
+ 449515 words of memory out of 3000000
+ 11974 multiletter control sequences out of 15000+200000
  9007 words of font info for 32 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
- 45i,9n,55p,352b,1872s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 45i,9n,55p,1073b,1870s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:
 /Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsl12.pfb><C:/P
 rogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/P
 rogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Pro
 gram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on master.pdf (15 pages, 119865 bytes).
+Output written on master.pdf (26 pages, 374141 bytes).
 PDF statistics:
- 308 PDF objects out of 1000 (max. 8388607)
- 143 named destinations out of 1000 (max. 500000)
- 97 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 442 PDF objects out of 1000 (max. 8388607)
+ 171 named destinations out of 1000 (max. 500000)
+ 215 words of extra memory for PDF output out of 10000 (max. 10000000)
 

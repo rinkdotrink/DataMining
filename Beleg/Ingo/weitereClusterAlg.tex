@@ -1,0 +1,8 @@
+\section{Weitere Cluster-Algorithmen}\label{weitereClusterAlgorithmen}
+Neben SimpleKMeans wurde auch XMeans auf das AT angewandt. Bei XMeans grenzt man die Cluster, die er finden könnte mit einer oberen und unteren Schranke ein. XMeans ist ein verleichsweise schneller Clusteralgorithmus, der das AT selbst mit der maximalen Anzahl von 8950 Attributen in 77 Minuten clustert. Dabei findet er drei Cluster. Als obere Schranke wurden zwei und als obere Schranke wurden 16 Cluster angegeben.
+
+Neben SimpleKMeans und XMeans wurden weitere Clustering-Algorithmen angewandt, die aus verschiedenen Gründen nicht weiter verfolgt wurden. Das Hierachical Clustering braucht bei nur 5 Attributen mehr als 8GB Arbeitsspeicher um das AT zu clustern. Deswegen konnte dieser Algorithmus auf dem Testrechner nicht ausgeführt werden.
+
+Der EM Algorithmus (expectation maximisation) benötigt auf dem Testrechner bei zehn Attributen 87 Minuten und findet dabei 7 Cluster. Auf ein clustern mit 100 oder gar 1000 Attributen wurde aus Zeitgründen verzichtet.
+
+Der Clusteralgorithmus DBScan bringt beim starten die Fehlermeldung: "`Problem evaluating cluster: null"'. Auch er wurde nicht weiter verfolgt.
