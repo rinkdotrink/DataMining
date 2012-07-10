@@ -10,25 +10,25 @@ import de.t2cf.LogUtil;
 
 public class ATReader {
 
-	private Map<Integer, String> lineVers;
+	private Map<Integer, String> lineNumberVers;
 	
 	public ATReader() {
-		lineVers = new TreeMap<Integer, String>();
+		lineNumberVers = new TreeMap<Integer, String>();
 	}
 
-	public Map<Integer, String> createLVMap() {
+	public Map<Integer, String> createLineNumberVersMap() {
 		try {
 			BufferedReader in = new BufferedReader(new FileReader(
 					"InputFile\\AltesTestament.txt"));
 			String line = null;
 			int lineNumber = 0;
 			while ((line = in.readLine()) != null) {
-				lineVers.put(lineNumber, line);
+				lineNumberVers.put(lineNumber, line);
 				lineNumber++;
 			}
 		} catch (IOException e) {
 			LogUtil.getLogger().error(e);
 		}
-		return lineVers;
+		return lineNumberVers;
 	}
 }

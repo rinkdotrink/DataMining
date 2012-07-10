@@ -4,49 +4,51 @@
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>330</x>
-      <y>180</y>
-      <w>220</w>
+      <x>350</x>
+      <y>30</y>
+      <w>350</w>
       <h>70</h>
     </coordinates>
     <panel_attributes>ARFFReader
 --
-zeilenNummerClusterMap : Map</panel_attributes>
+lineNumberClusterNumber : Map&lt;Integer, Integer&gt;</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>330</x>
-      <y>90</y>
-      <w>220</w>
-      <h>60</h>
-    </coordinates>
-    <panel_attributes>ATReader
---
-zeilenNummerVersMap : Map</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <type>com.umlet.element.Class</type>
-    <coordinates>
-      <x>330</x>
-      <y>300</y>
-      <w>220</w>
+      <x>350</x>
+      <y>140</y>
+      <w>350</w>
       <h>70</h>
+    </coordinates>
+    <panel_attributes>AT-Reader
+--
+lineNumberVers : Map&lt;Integer, String&gt;</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>350</x>
+      <y>250</y>
+      <w>350</w>
+      <h>80</h>
     </coordinates>
     <panel_attributes>ClusterFileWriter
 --
-clusterFileList : List</panel_attributes>
+lineNumberClusterNumber : Map&lt;Integer, Integer&gt;
+lineNumberVers : Map&lt;Integer, String&gt;
+List&lt;BufferedWriter&gt; : writer</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>140</x>
-      <y>90</y>
-      <w>100</w>
-      <h>40</h>
+      <x>40</x>
+      <y>140</y>
+      <w>160</w>
+      <h>70</h>
     </coordinates>
     <panel_attributes>Controller</panel_attributes>
     <additional_attributes/>
@@ -54,34 +56,34 @@ clusterFileList : List</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>210</x>
-      <y>80</y>
-      <w>140</w>
-      <h>130</h>
+      <x>170</x>
+      <y>160</y>
+      <w>200</w>
+      <h>140</h>
     </coordinates>
     <panel_attributes/>
-    <additional_attributes>120;110;30;30</additional_attributes>
+    <additional_attributes>30;30;180;120</additional_attributes>
   </element>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>210</x>
-      <y>70</y>
-      <w>140</w>
+      <x>170</x>
+      <y>30</y>
+      <w>200</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>30;120;180;30</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>170</x>
+      <y>140</y>
+      <w>200</w>
       <h>50</h>
     </coordinates>
     <panel_attributes/>
-    <additional_attributes>30;30;120;30</additional_attributes>
-  </element>
-  <element>
-    <type>com.umlet.element.Relation</type>
-    <coordinates>
-      <x>210</x>
-      <y>90</y>
-      <w>140</w>
-      <h>250</h>
-    </coordinates>
-    <panel_attributes/>
-    <additional_attributes>120;230;30;30</additional_attributes>
+    <additional_attributes>30;30;180;30</additional_attributes>
   </element>
 </diagram>

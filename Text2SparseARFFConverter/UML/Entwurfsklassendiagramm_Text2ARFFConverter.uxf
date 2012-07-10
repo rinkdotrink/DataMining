@@ -97,7 +97,7 @@
     <coordinates>
       <x>90</x>
       <y>620</y>
-      <w>440</w>
+      <w>700</w>
       <h>70</h>
     </coordinates>
     <panel_attributes>BookWordListReducer

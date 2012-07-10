@@ -12,16 +12,16 @@ import de.t2cf.LogUtil;
 
 public class ARFFReader {
 
-	private Map<Integer, Integer> lineCluster;
+	private Map<Integer, Integer> lineNumberClusterNumber;
 	private boolean dataSection = false;
 	private Pattern p;
 
 	public ARFFReader() {
-		lineCluster = new TreeMap<Integer, Integer>();
+		lineNumberClusterNumber = new TreeMap<Integer, Integer>();
 		p = Pattern.compile(".*cluster.*");
 	}
 
-	public Map<Integer, Integer> createLCMap() {
+	public Map<Integer, Integer> createLineNumberClusterNumberMap() {
 		try {
 			BufferedReader in = new BufferedReader(new FileReader(
 					"InputFile\\sparseArffC.arff"));
@@ -30,7 +30,7 @@ public class ARFFReader {
 				if (dataSection) {
 					int lineNumber = getLineNumber(line);
 					int clusterNumber = getClusterNumber(line);
-					lineCluster.put(lineNumber, clusterNumber);
+					lineNumberClusterNumber.put(lineNumber, clusterNumber);
 				}
 				if (line.startsWith("@data", 0)) {
 					dataSection = true;
@@ -39,7 +39,7 @@ public class ARFFReader {
 		} catch (IOException e) {
 			LogUtil.getLogger().error(e);
 		}
-		return lineCluster;
+		return lineNumberClusterNumber;
 	}
 
 	public Integer getClusterNumber(final String aLine) {
