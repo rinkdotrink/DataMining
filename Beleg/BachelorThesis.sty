@@ -1,0 +1,169 @@
+\ProvidesPackage{BachelorThesis}
+
+\RequirePackage{scrpage}
+\RequirePackage{ifthen}
+\RequirePackage{typearea}
+\RequirePackage{graphicx}
+\RequirePackage{listings}
+\RequirePackage{hyperref}
+\RequirePackage{geometry}
+\RequirePackage[usenames]{color}
+
+\geometry{top=3.5cm}
+
+\defpagestyle{chapterStyle}
+  {(0pt,0pt){\pagemark\hfill\headmark}
+            {\headmark\hfill\pagemark}
+            {\headmark\hfill\pagemark}(\textwidth,0.5pt)}
+  {(0pt,0pt){\hfill\pagemark\hfill}
+            {\hfill\pagemark\hfill}
+            {\hfill\pagemark\hfill}(0pt,0pt)}
+
+\defpagestyle{appendixAStyle}
+	{(\textwidth,0pt){Anhang A: Codebeispiele\hfill\pagemark}
+    	{Anhang A: Codebeispiele\hfill\pagemark}
+    	{Anhang A: Codebeispiele\hfill\pagemark}(\textwidth,0.5pt)}
+  	{(0pt,0pt){\hfill\pagemark\hfill}
+  		{\hfill\pagemark\hfill}
+        {\hfill\pagemark\hfill}(0pt,0pt)}
+
+\defpagestyle{appendixBStyle}
+	{(\textwidth,0pt){Anhang B: Screenshots\hfill\pagemark}
+    	{Anhang B: Screenshots\hfill\pagemark}
+    	{Anhang B: Screenshots\hfill\pagemark}(\textwidth,0.5pt)}
+	{(0pt,0pt){\hfill\pagemark\hfill}
+  		{\hfill\pagemark\hfill}
+        {\hfill\pagemark\hfill}(0pt,0pt)}
+
+\renewcommand{\baselinestretch}{1.24}
+\setlength{\parindent}{0em}
+\setlength{\parskip}{2ex}
+\renewcommand{\textfraction}{0.0}
+\renewcommand{\floatpagefraction}{.9}
+\renewcommand{\topfraction}{0.9}
+\renewcommand{\bottomfraction}{.5}
+\renewcommand{\footnoterule}{\vfill \rule{7cm}{0.01cm} \vspace{0.1cm}}
+% create a title page
+\newcommand{\batitle}[7]{
+  \begin{titlepage}
+      \enlargethispage{3cm}
+      \begin{center}
+          {\LARGE \textbf{#1}}
+          \vspace{3cm}
+          \begin{flushleft}
+              {\large \textbf{Bakkalaureusarbeit}}\\[1cm]
+              zur Erlangung des Grades eines Bachelor of Science (BSc.)\\
+              der Fakult\"{a}t #3 \\
+              der Hochschule Zittau/G\"{o}rlitz -- University of Applied Sciences\\[3cm]
+
+          vorgelegt von \\[1cm]
+          {\large #2} \\
+
+          {    \begin{tabbing}
+                Betrieblicher Betreuer: \= \kill
+
+				Einrichtung: \> #4 \\
+                Betreuender Professor: \> #5 \\
+                Betrieblicher Betreuer: \> #6\\
+            \end{tabbing}}
+          \vfill
+              #7, \today
+          \end{flushleft}
+
+
+      \end{center}
+      \setcounter{page}{0}
+  \end{titlepage}
+}
+
+\newcommand{\baimage}[4][width=\textwidth]{
+	\begin{figure}[h]
+	\centering
+	\includegraphics[#1]{#2}
+	\caption{#3}
+	\label{#4}
+	\end{figure}
+}
+
+\definecolor{gray}{gray}{0.85}
+
+\newcommand{\balisting}[4][Java]{
+	\lstinputlisting[caption={#3}, label=#4, language=#1]{#2}
+}
+
+\makeatletter
+\@ifundefined{float@listhead}{}{%
+    \renewcommand*{\lstlistoflistings}{%
+        \begingroup
+    	    \if@twocolumn
+                \@restonecoltrue\onecolumn
+            \else
+                \@restonecolfalse
+            \fi
+            \float@listhead{\lstlistlistingname}%
+            \setlength{\parskip}{\z@}%
+            \setlength{\parindent}{\z@}%
+            \setlength{\parfillskip}{\z@ \@plus 1fil}%
+            \@starttoc{lol}%
+            \if@restonecol\twocolumn\fi
+        \endgroup
+    }%
+}
+\makeatother
+
+\newcommand{\baeiderkl}[2]{
+
+  \begin{titlepage}
+      \vspace*{5cm}
+      {\underline{Eidesstattliche Erkl\"{a}rung}}\\[1cm]
+      Hiermit erkl\"{a}re ich, dass ich diese Arbeit selbstst\"{a}ndig verfasst und keine anderen als die angegebenen
+      Quellen und Hilfsmittel benutzt habe.\\[1cm]
+      Die Arbeit wurde bisher keiner anderen Pr\"{u}fungsbeh\"{o}rde vorgelegt und auch noch nicht ver\"{o}ffentlicht.\\[4cm]
+      #2
+      \hfill
+      \begin{tabular}{l}
+          \hline
+          #1
+      \end{tabular}
+
+      \end{titlepage}
+      \if@twoside
+      \newpage
+      \fi
+}
+
+\makeatletter
+\renewcommand*\l@section{\@dottedtocline{1}{0.0em}{2.0em}}
+\renewcommand*\l@subsection{\@dottedtocline{2}{0.0em}{2.8em}}
+\makeatother
+
+% acronyms
+\newcommand{\acronym}[2]{
+	\textbf{#1} \> #2\> \\
+}
+
+\newenvironment{listofacronyms}{
+		\chapter*{Abk\"{u}rzungsverzeichnis}
+  		\begin{tabbing}
+		\hspace*{3cm} \= \hspace{1cm} \= \hspace{5cm} \\}{\end{tabbing}}
+		
+\lstdefinelanguage{Scala}{
+	morekeywords={
+		def,val,var,if,else,import,case,class,new,while,for,private,return,object,extends,
+		true,false,null,override,this,implicit,yield,throw,try,catch,finally,match,abstract,final,
+		trait,with,super,package,protected,sealed},
+		sensitive=false,
+  	morecomment=[l]{//},
+  	morecomment=[s]{/*}{*/},
+  	morestring=[b]",
+}
+
+\lstset{
+	numbers=left,
+	frame=topline,
+	showspaces=false,
+	breaklines=true,
+	%showstringspaces=false,
+	%backgroundcolor=\color{gray},
+	%language=Scala
+}

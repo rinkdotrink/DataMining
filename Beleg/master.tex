@@ -1,0 +1,167 @@
+\documentclass[a4paper,12pt,oneside,bibtotoc,numbers=noenddot]{scrreprt}
+
+%Pakete
+\usepackage[latin9]{inputenc}
+\usepackage[ngerman]{babel}
+\usepackage{listings}
+\usepackage{graphicx}
+\usepackage{BachelorThesis}
+
+% Allgemeine Informationen
+\newcommand\mytitle{Titel der Arbeit}
+\newcommand\myauthor{Name des Autors oder der Autoren}
+\newcommand\mydepartment{Informatik und Elektrotechnik}
+\newcommand\myinstitute{Hochschule Zittau/G\"{o}rlitz}
+\newcommand\mytutor{Name und Titel des betreuenden Professors}
+\newcommand\mySecondTutor{Name und Titel des betrieblichen Betreuers}
+
+% Abstracts
+\newcommand\mysubject{Das deutsche Abstract.}
+\newcommand\mysubjectenglish{The english abstract.}
+
+% PDF-Einstellungen
+\hypersetup
+{
+	pdftitle = \mytitle,
+	pdfsubject = \mysubject,
+	pdfauthor = \myauthor,
+	pdfkeywords = {},
+	colorlinks = {true},
+	pdfborder = 0 0 0
+}
+
+\begin{document}
+\nocite{*}
+
+%
+\pagenumbering{alph}
+\begin{titlepage}
+\thispagestyle{empty} 
+ \begin{center}
+ \vspace{2.0cm} 
+ {\bfseries \huge Verse des Alten Testaments clustern\\}
+ \vspace{3.0cm} 
+ {\bfseries \huge Belegarbeit\\}
+ \vspace{3.0cm}
+ {\normalsize eingereicht am Fachbereich\\}
+ {\bfseries \Large Informatik\\}
+ {\normalsize der Hochschule Zittau/Görlitz (HAW)\\}
+ \vspace{1cm}
+ {\normalsize als Prüfungsleistung im Fach\\}
+ {\bfseries \Large Data Mining\\}
+ \vspace{1cm}
+ {\normalsize vorgelegt von:\\}
+ {\bfseries \Large Christof Ochmann (35989)\\
+ Ingo Körner (40586)\\}
+ \vspace{1cm}
+ {\normalsize  Görlitz, 11. Juli 2012\\}
+ \vspace{0.5cm}
+ Betreuer:	Prof. ten Hagen\\
+ \vfill
+\end{center}
+\end{titlepage}
+
+%
+%% Kurzreferat
+\thispagestyle{empty}
+\input{Ingo/Abstract}
+
+%\mysubject
+%\section*{Abstract}
+%\mysubjectenglish
+
+\pagenumbering{Roman}
+\tableofcontents
+\listoffigures
+\lstlistoflistings
+
+\begin{listofacronyms}
+\acronym{DBMS}{Datenbankmanagementsystem}
+\acronym{ERD}{Entity-Relationship Diagram}
+\acronym{OLAP}{Online Analytical Processing}
+\acronym{SQL}{Structured Query Language}
+
+\end{listofacronyms}
+
+\begin{flushleft}
+\begin{thebibliography}{sotief}
+\bibitem{bib1}{Martin, Robert C. (2008): Clean Code: A Handbook of Agile Software Craftsmanship. Prentice Hall International}
+
+\bibitem{bib2}{Freeman, Eric (2007): Entwurfsmuster von Kopf bis Fuß. O'REILLY}
+
+\bibitem{bib3}{Peter Eisentraut, Bernd Helmle. (2009): PostgreSQL-Administration. O'REILLY}
+
+\bibitem{bib4}{\begin{verbatim}http://www.postgresql.org/ (08.06.2012)\end{verbatim}} 
+
+\bibitem{bib5}{\begin{verbatim}http://wiki.postgresql.org/ (08.06.2012)\end{verbatim}} 
+
+
+
+\end{thebibliography}
+\end{flushleft}
+
+\newpage
+\pagestyle{chapterStyle}
+\pagenumbering{arabic}
+
+\chapter{Theorie}
+\input{Ingo/Einleitung}
+\input{Ingo/Aufgabenstellung}
+\input{Ingo/RelevanzForschungsgegenstand}
+\input{Ingo/AktuellerWissensstand}
+
+\chapter{Umsetzung}\label{Umsetzung}
+
+\input{Ingo/Zusammenfassung}
+\input{Ingo/Ausblick}
+
+
+
+%\chapter{Theoretische Grundlagen}
+%Die f\"{u}r den Untersuchungsgegenstand relevanten Themen, die \"{u}ber die
+%grundlegenden Studieninhalte hinausgehen; oft auch anwendungsspezifische Aspekte - %ca. 6 Seiten
+
+%\chapter{Ist-Analyse}
+%Welche Defizite sollen mit der Arbeit behoben werden, welche nicht? %Pr\"{a}zisierung
+%der Zielstellung - ca. 6 Seiten
+
+%\chapter{L\"{o}sungskonzept}
+%Wie sollen die Defizite behoben werden? Methoden, fachliche Auseinandersetzung
+%mit alternativen Ans\"{a}tzen und Auffassungen, Systembeschreibung (Architektur,
+%Vorgehensmodell, \ldots) - ca. 12 Seiten
+
+%\chapter{Implementierung}
+%Umsetzung des L\"{o}sungskonzepts, Begr\"{u}ndung der verwendeten Technologien - %ca. 8
+%Seiten
+
+%\chapter{Ergebnisse}
+%Objektive Bewertung der vorliegenden L\"{o}sung, diverse Testverfahren,
+%Nutzerbefragungen - ca. 4 Seiten
+
+%\chapter{Fazit und Ausblick}
+%Zusammenfassung s\"{a}mtlicher Ergebnisse in Bezug auf die Zielerf\"{u}llung und
+%Vorschl\"{a}ge f\"{u}r weiterf\"{u}hrende Arbeiten - ca. 2 Seiten
+
+\bibliographystyle{alphadin}
+\begin{appendix}
+\newpage
+\pagestyle{appendixAStyle}
+\chapter{Codebeispiele}
+\input{listings}
+\end{appendix}
+
+\input{Arbeitsaufteilung}
+
+\newpage
+\chapter{Eigenständigkeitserklärung}
+Hiermit erkläre ich, dass ich diese Arbeit selbständig verfasst habe. Mir ist bekannt, dass jede Form des Plagiats mit der Note 5 (Betrugsversuch) bewertet wird.
+
+\begin{tabular}{@{}p{6.0cm}p{6.0cm}}	  		  		 	
+	  		 & \\
+	  		 & \\
+				  			\textbf{Ochmann, Christof} &               Unterschrift:\\				 
+				 &\\
+				 & \\
+				  			\textbf{Körner, Ingo}   	&                     Unterschrift:\\			
+\end{tabular}
+\end{document}
