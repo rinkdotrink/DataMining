@@ -1,27 +1,27 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.1.16)  11 JUL 2012 03:50
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2012.7.9)  11 JUL 2012 14:43
 entering extended mode
-**C:/Users/Ingo/Documents/JavaProjekte/wsDataMining/Beleg/master.tex
-(C:/Users/Ingo/Documents/JavaProjekte/wsDataMining/Beleg/master.tex
+**C:/Users/Syzyryk/Data/Beleg/master.tex
+(C:/Users/Syzyryk/Data/Beleg/master.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
 croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
-lician, german, german-x-2009-06-19, greek, gujarati, hindi, hungarian, iceland
-ic, indonesian, interlingua, irish, italian, kannada, kurmanji, lao, latin, lat
-vian, lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerm
-an, ngerman-x-2009-06-19, nynorsk, oriya, panjabi, pinyin, polish, portuguese, 
-romanian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swis
-sgerman, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, u
-senglishmax, welsh, loaded.
+lician, german, german-x-2012-05-30, greek, gujarati, hindi, hungarian, iceland
+ic, indonesian, interlingua, irish, italian, kannada, kurmanji, latin, latvian,
+ lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, n
+german-x-2012-05-30, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
+ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
+an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
+ishmax, welsh, loaded.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\koma-script\scrreprt.cls"
-Document Class: scrreprt 2011/06/16 v3.09a KOMA-Script document class (report)
+Document Class: scrreprt 2012/05/15 v3.11 KOMA-Script document class (report)
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\koma-script\scrkbase.sty"
-Package: scrkbase 2011/06/16 v3.09a KOMA-Script package (KOMA-Script-dependent 
-basics and keyval usage)
+Package: scrkbase 2012/05/15 v3.11 KOMA-Script package (KOMA-Script-dependent b
+asics and keyval usage)
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\koma-script\scrbase.sty"
-Package: scrbase 2011/06/16 v3.09a KOMA-Script package (KOMA-Script-independent
- basics and keyval usage)
+Package: scrbase 2012/05/15 v3.11 KOMA-Script package (KOMA-Script-independent 
+basics and keyval usage)
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
@@ -34,7 +34,7 @@ Package scrlfile, 2011/03/09 v3.09 KOMA-Script package (loading files)
                   Copyright (C) Markus Kohm
 
 ))) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\koma-script\tocbasic.sty"
-Package: tocbasic 2011/05/30 v3.09a KOMA-Script package (handling toc-files)
+Package: tocbasic 2012/04/04 v3.10b KOMA-Script package (handling toc-files)
 )
 Package tocbasic Info: omitting babel extension for `toc'
 (tocbasic)             because of feature `nobabel' available
@@ -67,15 +67,15 @@ Class scrreprt Warning: You've used obsolete option `bibtotoc'.
 
 Class scrreprt Info: Switching compatibility level to `first'.
 Class scrreprt Info: File `scrsize12pt.clo' used to setup font sizes on input l
-ine 1347.
+ine 1365.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\koma-script\scrsize12pt.clo"
-File: scrsize12pt.clo 2011/06/16 v3.09a KOMA-Script font size class option (12p
-t)
+File: scrsize12pt.clo 2012/05/15 v3.11 KOMA-Script font size class option (12pt
+)
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\koma-script\typearea.sty"
-Package: typearea 2011/06/16 v3.09a KOMA-Script package (type area)
+Package: typearea 2012/05/15 v3.11 KOMA-Script package (type area)
 
-Package typearea, 2011/06/16 v3.09a KOMA-Script package (type area)
+Package typearea, 2012/05/15 v3.11 KOMA-Script package (type area)
                   Copyright (C) Frank Neukam, 1992-1994
                   Copyright (C) Markus Kohm, 1994-
 
@@ -112,7 +112,7 @@ Package typearea Info: These are the values describing the layout:
 (typearea)              \topskip        = 12.0pt
 (typearea)              \footskip       = 50.75pt
 (typearea)              \baselineskip   = 14.5pt
-(typearea)              on input line 1139.
+(typearea)              on input line 1211.
 )
 \c@part=\count80
 \c@chapter=\count81
@@ -198,17 +198,17 @@ Package graphics Info: Driver file: pdftex.def on input line 91.
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
-Package: infwarerr 2010/04/08 v1.3 Providing info/warning/message (HO)
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
-Package: ltxcmds 2011/04/18 v1.20 LaTeX kernel commands for general use (HO)
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count98
 ))
 \Gin@req@height=\dimen108
 \Gin@req@width=\dimen109
 )
-(C:\Users\Ingo\Documents\JavaProjekte\wsDataMining\Beleg\BachelorThesis.sty
+(C:\Users\Syzyryk\Data\Beleg\BachelorThesis.sty
 Package: BachelorThesis 
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\koma-script\scrpage.sty"
@@ -219,93 +219,97 @@ LaTeX Info: Redefining \pagemark on input line 78.
 Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
-Package: hyperref 2011/08/19 v6.82h Hypertext links for LaTeX
+Package: hyperref 2012/05/13 v6.82q Hypertext links for LaTeX
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty"
-Package: hobsub-hyperref 2011/04/23 v1.4 Bundle oberdiek, subset hyperref (HO)
+Package: hobsub-hyperref 2012/04/25 v1.12 Bundle oberdiek, subset hyperref (HO)
+
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\hobsub-generic.sty"
-Package: hobsub-generic 2011/04/23 v1.4 Bundle oberdiek, subset generic (HO)
-Package: hobsub 2011/04/23 v1.4 Subsetting bundle oberdiek (HO)
+Package: hobsub-generic 2012/04/25 v1.12 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2012/04/25 v1.12 Construct package bundles (HO)
 Package hobsub Info: Skipping package `infwarerr' (already loaded).
 Package hobsub Info: Skipping package `ltxcmds' (already loaded).
 Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
-Package: ifvtex 2010/03/01 v1.5 Switches for detecting VTeX and its modes (HO)
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
-Package: intcalc 2007/09/27 v1.1 Expandable integer calculations (HO)
+Package: intcalc 2007/09/27 v1.1 Expandable calculations with integers (HO)
 Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
 Package ifpdf Info: pdfTeX in PDF mode is detected.
-Package: etexcmds 2011/02/16 v1.5 Prefix for e-TeX command names (HO)
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
 Package etexcmds Info: Could not find \expanded.
 (etexcmds)             That can mean that you are not using pdfTeX 1.50 or
 (etexcmds)             that some package has redefined \expanded.
 (etexcmds)             In the latter case, load this package earlier.
-Package: kvsetkeys 2011/04/07 v1.13 Key value parser (HO)
-Package: kvdefinekeys 2011/04/07 v1.3 Defining keys (HO)
-Package: pdftexcmds 2011/04/22 v0.16 Utilities of pdfTeX for LuaTeX (HO)
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
-Package: pdfescape 2011/04/04 v1.12 Provides string conversions (HO)
-Package: bigintcalc 2011/01/30 v1.2 Expandable big integer calculations (HO)
-Package: bitset 2011/01/30 v1.1 Data type bit set (HO)
-Package: uniquecounter 2011/01/30 v1.2 Provides unlimited unique counter (HO)
+Package: pdfescape 2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2012/04/08 v1.3 Expandable calculations on big integers (HO
+)
+Package: bitset 2011/01/30 v1.1 Handle bit-vector datatype (HO)
+Package: uniquecounter 2011/01/30 v1.2 Provide unlimited unique counter (HO)
 )
 Package hobsub Info: Skipping package `hobsub' (already loaded).
 Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
-Package: hopatch 2011/01/30 v1.0 Wrapper for package hooks (HO)
+Package: hopatch 2011/06/24 v1.1 Wrapper for package hooks (HO)
 Package: xcolor-patch 2011/01/30 xcolor patch
-Package: atveryend 2011/04/23 v1.7 Hooks at very end of document (HO)
-Package: atbegshi 2011/01/30 v1.15 At begin shipout hook (HO)
-Package: refcount 2010/12/01 v3.2 Data extraction from references (HO)
-Package: hycolor 2011/01/30 v1.7 Color options of hyperref/bookmark (HO)
+Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
+Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
+Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
-Package: kvoptions 2010/12/23 v3.10 Keyval support for LaTeX options (HO)
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 )
 \@linkdim=\dimen110
 \Hy@linkcounter=\count99
 \Hy@pagecounter=\count100
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
-File: pd1enc.def 2011/08/19 v6.82h Hyperref: PDFDocEncoding definition (HO)
+File: pd1enc.def 2012/05/13 v6.82q Hyperref: PDFDocEncoding definition (HO)
 )
 \Hy@SavedSpaceFactor=\count101
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
-Package hyperref Info: Hyper figures OFF on input line 4053.
-Package hyperref Info: Link nesting OFF on input line 4058.
-Package hyperref Info: Hyper index ON on input line 4061.
-Package hyperref Info: Plain pages OFF on input line 4068.
-Package hyperref Info: Backreferencing OFF on input line 4073.
+Package hyperref Info: Hyper figures OFF on input line 4062.
+Package hyperref Info: Link nesting OFF on input line 4067.
+Package hyperref Info: Hyper index ON on input line 4070.
+Package hyperref Info: Plain pages OFF on input line 4077.
+Package hyperref Info: Backreferencing OFF on input line 4082.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4291.
+Package hyperref Info: Bookmarks ON on input line 4300.
 \c@Hy@tempcnt=\count102
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ltxmisc\url.sty"
 \Urlmuskip=\muskip10
 Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 4644.
+LaTeX Info: Redefining \url on input line 4653.
 \Fld@menulength=\count103
 \Field@Width=\dimen111
 \Fld@charsize=\dimen112
-Package hyperref Info: Hyper figures OFF on input line 5730.
-Package hyperref Info: Link nesting OFF on input line 5735.
-Package hyperref Info: Hyper index ON on input line 5738.
-Package hyperref Info: backreferencing OFF on input line 5745.
-Package hyperref Info: Link coloring OFF on input line 5750.
-Package hyperref Info: Link coloring with OCG OFF on input line 5755.
-Package hyperref Info: PDF/A mode OFF on input line 5760.
-LaTeX Info: Redefining \ref on input line 5800.
-LaTeX Info: Redefining \pageref on input line 5804.
+Package hyperref Info: Hyper figures OFF on input line 5773.
+Package hyperref Info: Link nesting OFF on input line 5778.
+Package hyperref Info: Hyper index ON on input line 5781.
+Package hyperref Info: backreferencing OFF on input line 5788.
+Package hyperref Info: Link coloring OFF on input line 5793.
+Package hyperref Info: Link coloring with OCG OFF on input line 5798.
+Package hyperref Info: PDF/A mode OFF on input line 5803.
+LaTeX Info: Redefining \ref on input line 5843.
+LaTeX Info: Redefining \pageref on input line 5847.
 \Hy@abspage=\count104
 \c@Item=\count105
 \c@Hfootnote=\count106
@@ -314,7 +318,7 @@ LaTeX Info: Redefining \pageref on input line 5804.
 Package hyperref Message: Driver (autodetected): hpdftex.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
-File: hpdftex.def 2011/08/19 v6.82h Hyperref driver for pdfTeX
+File: hpdftex.def 2012/05/13 v6.82q Hyperref driver for pdfTeX
 \Fld@listcount=\count107
 \c@bookmark@seq@number=\count108
 
@@ -351,7 +355,7 @@ Package color Info: Driver file: pdftex.def on input line 130.
 ))
 Package hyperref Info: Option `colorlinks' set `true' on input line 31.
 
-(C:\Users\Ingo\Documents\JavaProjekte\wsDataMining\Beleg\master.aux)
+(C:\Users\Syzyryk\Data\Beleg\master.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
 LaTeX Font Info:    ... okay on input line 33.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 33.
@@ -396,8 +400,8 @@ LaTeX Info: Redefining \ref on input line 33.
 LaTeX Info: Redefining \pageref on input line 33.
 LaTeX Info: Redefining \nameref on input line 33.
 
-(C:\Users\Ingo\Documents\JavaProjekte\wsDataMining\Beleg\master.out)
-(C:\Users\Ingo\Documents\JavaProjekte\wsDataMining\Beleg\master.out)
+(C:\Users\Syzyryk\Data\Beleg\master.out)
+(C:\Users\Syzyryk\Data\Beleg\master.out)
 \@outlinefile=\write3
 
 *geometry* driver: auto-detecting
@@ -438,20 +442,20 @@ LaTeX Info: Redefining \nameref on input line 33.
 
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
-(C:\Users\Ingo\Documents\JavaProjekte\wsDataMining\Beleg\Ingo/Abstract.tex)
-[1] (C:\Users\Ingo\Documents\JavaProjekte\wsDataMining\Beleg\master.toc
+(C:\Users\Syzyryk\Data\Beleg\Ingo/Abstract.tex) [1]
+(C:\Users\Syzyryk\Data\Beleg\master.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <12> on input line 4.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 4.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 4.
-)
+ [2
+
+])
 \tf@toc=\write4
-
-[2
-
-] (C:\Users\Ingo\Documents\JavaProjekte\wsDataMining\Beleg\master.lof)
+ [3]
+(C:\Users\Syzyryk\Data\Beleg\master.lof)
 \tf@lof=\write5
 
 
@@ -462,16 +466,15 @@ Class scrreprt Warning: Usage of deprecated \float@listhead!
 (scrreprt)              `scrreprt' soon, so it should not be used  on input lin
 e 76.
 
-[3
-
-] (C:\Users\Ingo\Documents\JavaProjekte\wsDataMining\Beleg\master.lol)
-\tf@lol=\write6
-
 [4
 
-] [5
+] (C:\Users\Syzyryk\Data\Beleg\master.lol)
+\tf@lol=\write6
+ [5
 
 ] [6
+
+] [7
 
 ]
 Kapitel 1.
@@ -482,26 +485,29 @@ Class scrreprt Warning: \float@addtolists detected!
 (scrreprt)              Support for \float@addtolists may be removed from
 (scrreprt)              `scrreprt' soon .
 
-(C:\Users\Ingo\Documents\JavaProjekte\wsDataMining\Beleg\Ingo/Einleitung.tex)
-(C:\Users\Ingo\Documents\JavaProjekte\wsDataMining\Beleg\Ingo/Aufgabenstellung.
-tex)
-(C:\Users\Ingo\Documents\JavaProjekte\wsDataMining\Beleg\Ingo/RelevanzForschung
-sgegenstand.tex)
-(C:\Users\Ingo\Documents\JavaProjekte\wsDataMining\Beleg\Ingo/AktuellerWissenss
-tand.tex [1
+(C:\Users\Syzyryk\Data\Beleg\Ingo/Einleitung.tex)
+(C:\Users\Syzyryk\Data\Beleg\Ingo/Aufgabenstellung.tex)
+(C:\Users\Syzyryk\Data\Beleg\Ingo/RelevanzForschungsgegenstand.tex)
+(C:\Users\Syzyryk\Data\Beleg\Ingo/AktuellerWissensstand.tex [1
 
 ])
-(C:\Users\Ingo\Documents\JavaProjekte\wsDataMining\Beleg\Ingo/Testrechner.tex)
-(C:\Users\Ingo\Documents\JavaProjekte\wsDataMining\Beleg\Ingo/AufbauAT.tex
-[2] <Ingo/Bilder/AufbauAT.png, id=200, 356.83313pt x 67.75313pt>
+(C:\Users\Syzyryk\Data\Beleg\Ingo/Testrechner.tex)
+(C:\Users\Syzyryk\Data\Beleg\Ingo/AufbauAT.tex [2]
+<Ingo/Bilder/AufbauAT.png, id=225, 356.83313pt x 67.75313pt>
 File: Ingo/Bilder/AufbauAT.png Graphic file (type png)
 
 <use Ingo/Bilder/AufbauAT.png>
 Package pdftex.def Info: Ingo/Bilder/AufbauAT.png used on input line 13.
 (pdftex.def)             Requested size: 418.25368pt x 79.41866pt.
+) (C:\Users\Syzyryk\Data\Beleg\Ingo/ARFF.tex
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 5.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-(C:\Users\Ingo\Documents\JavaProjekte\wsDataMining\Beleg\Ingo/ARFF.tex [3 <C:/U
-sers/Ingo/Documents/JavaProjekte/wsDataMining/Beleg/Ingo/Bilder/AufbauAT.png>]
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 5.
+ [3 <C:/Users/Syzyryk/Data/Beleg/Ingo/Bilder/AufbauAT.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 16--19
 
  []
@@ -521,10 +527,42 @@ Underfull \hbox (badness 10000) in paragraph at lines 38--42
 
  []
 
-) [5]
+) (C:\Users\Syzyryk\Data\Beleg\Christof/Clustering.tex
+Underfull \hbox (badness 10000) in paragraph at lines 2--3
+
+ []
+
+
+Overfull \hbox (8.6849pt too wide) in paragraph at lines 7--9
+\OT1/cmr/m/n/12 Um-grup-pie-rung der Ob-jek-te ver-bes-sert. Bei je-dem Ob-jekt
+ wird []uberpr[]uft,
+ []
+
+[5] [6]
+Overfull \hbox (23.2343pt too wide) in paragraph at lines 36--37
+[][]\OT1/cmr/m/n/12 min-Pts\: Mit die-sem Pa-ra-me-ter wird die mi-ni-ma-le An-
+zahl an $\OML/cmm/m/it/12 $\OT1/cmr/m/n/12 -erreichbaren
+ []
+
+[7]
+Underfull \hbox (badness 10000) in paragraph at lines 42--43
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 61--62
+
+ []
+
+[8]
+Underfull \hbox (badness 10000) in paragraph at lines 64--69
+
+ []
+
+[9]) [10]
 Kapitel 2.
-(C:\Users\Ingo\Documents\JavaProjekte\wsDataMining\Beleg\Ingo/ATzuARFF.tex
-<Ingo/Bilder/Analyseklassendiagramm_Text2ARFFConverter.png, id=216, 552.0625pt 
+(C:\Users\Syzyryk\Data\Beleg\Ingo/ATzuARFF.tex
+<Ingo/Bilder/Analyseklassendiagramm_Text2ARFFConverter.png, id=277, 552.0625pt 
 x 652.4375pt>
 File: Ingo/Bilder/Analyseklassendiagramm_Text2ARFFConverter.png Graphic file (t
 ype png)
@@ -533,7 +571,7 @@ Package pdftex.def Info: Ingo/Bilder/Analyseklassendiagramm_Text2ARFFConverter.
 png used on input line 10.
 (pdftex.def)             Requested size: 418.25368pt x 494.32452pt.
 
-<Ingo/Bilder/Entwurfsklassendiagramm_Text2ARFFConverter.png, id=219, 833.1125pt
+<Ingo/Bilder/Entwurfsklassendiagramm_Text2ARFFConverter.png, id=280, 833.1125pt
  x 1264.725pt>
 File: Ingo/Bilder/Entwurfsklassendiagramm_Text2ARFFConverter.png Graphic file (
 type png)
@@ -546,35 +584,31 @@ Package pdftex.def Info: Ingo/Bilder/Entwurfsklassendiagramm_Text2ARFFConverter
 
 LaTeX Warning: Float too large for page by 24.26549pt on input line 24.
 
-)
-(C:\Users\Ingo\Documents\JavaProjekte\wsDataMining\Beleg\Ingo/WelcheWoerter.tex
-) (C:\Users\Ingo\Documents\JavaProjekte\wsDataMining\Beleg\Ingo/Probleme.tex
-[6
+) (C:\Users\Syzyryk\Data\Beleg\Ingo/WelcheWoerter.tex [11
 
-] [7 <C:/Users/Ingo/Documents/JavaProjekte/wsDataMining/Beleg/Ingo/Bilder/Analy
-seklassendiagramm_Text2ARFFConverter.png (PNG copy)>] [8 <C:/Users/Ingo/Documen
-ts/JavaProjekte/wsDataMining/Beleg/Ingo/Bilder/Entwurfsklassendiagramm_Text2ARF
-FConverter.png (PNG copy)>])
-(C:\Users\Ingo\Documents\JavaProjekte\wsDataMining\Beleg\Ingo/SimpleKMeans.tex
-[9] <Ingo/Bilder/SimpleKMeans.png, id=237, 602.25pt x 372.39125pt>
+])
+(C:\Users\Syzyryk\Data\Beleg\Ingo/Probleme.tex [12 <C:/Users/Syzyryk/Data/Beleg
+/Ingo/Bilder/Analyseklassendiagramm_Text2ARFFConverter.png (PNG copy)>]
+[13 <C:/Users/Syzyryk/Data/Beleg/Ingo/Bilder/Entwurfsklassendiagramm_Text2ARFFC
+onverter.png (PNG copy)>] [14])
+(C:\Users\Syzyryk\Data\Beleg\Ingo/SimpleKMeans.tex
+<Ingo/Bilder/SimpleKMeans.png, id=300, 602.25pt x 372.39125pt>
 File: Ingo/Bilder/SimpleKMeans.png Graphic file (type png)
 
 <use Ingo/Bilder/SimpleKMeans.png>
 Package pdftex.def Info: Ingo/Bilder/SimpleKMeans.png used on input line 6.
 (pdftex.def)             Requested size: 418.25368pt x 258.63217pt.
 )
-(C:\Users\Ingo\Documents\JavaProjekte\wsDataMining\Beleg\Ingo/weitereClusterAlg
-.tex [10 <C:/Users/Ingo/Documents/JavaProjekte/wsDataMining/Beleg/Ingo/Bilder/S
-impleKMeans.png (PNG copy)>])
-(C:\Users\Ingo\Documents\JavaProjekte\wsDataMining\Beleg\Ingo/Text2ClusterFile.
-tex
+(C:\Users\Syzyryk\Data\Beleg\Ingo/weitereClusterAlg.tex [15 <C:/Users/Syzyryk/D
+ata/Beleg/Ingo/Bilder/SimpleKMeans.png (PNG copy)>])
+(C:\Users\Syzyryk\Data\Beleg\Ingo/Text2ClusterFile.tex
 Overfull \hbox (8.05858pt too wide) in paragraph at lines 4--5
-[]\OT1/cmr/m/n/12 In Ab-bil-dung [][]2.4[][] auf Sei-te [][]12[][] ist das Ent-
+[]\OT1/cmr/m/n/12 In Ab-bil-dung [][]2.4[][] auf Sei-te [][]17[][] ist das Ent-
 wurfs-klas-sen-dia-gramm von Text2ClusterFile
  []
 
 
-<Ingo/Bilder/AnalyseklassendiagrammText2ClusterFile.png, id=246, 702.625pt x 34
+<Ingo/Bilder/AnalyseklassendiagrammText2ClusterFile.png, id=309, 702.625pt x 34
 1.275pt>
 File: Ingo/Bilder/AnalyseklassendiagrammText2ClusterFile.png Graphic file (type
  png)
@@ -583,7 +617,7 @@ Package pdftex.def Info: Ingo/Bilder/AnalyseklassendiagrammText2ClusterFile.png
  used on input line 8.
 (pdftex.def)             Requested size: 418.25368pt x 203.15747pt.
 
-<Ingo/Bilder/EntwurfsklassendiagrammText2ClusterFile.png, id=247, 682.55pt x 85
+<Ingo/Bilder/EntwurfsklassendiagrammText2ClusterFile.png, id=310, 682.55pt x 85
 3.1875pt>
 File: Ingo/Bilder/EntwurfsklassendiagrammText2ClusterFile.png Graphic file (typ
 e png)
@@ -592,12 +626,11 @@ Package pdftex.def Info: Ingo/Bilder/EntwurfsklassendiagrammText2ClusterFile.pn
 g used on input line 15.
 (pdftex.def)             Requested size: 418.25368pt x 522.82602pt.
 )
-(C:\Users\Ingo\Documents\JavaProjekte\wsDataMining\Beleg\Ingo/nachVersenGeclust
-ert.tex [11] [12 <C:/Users/Ingo/Documents/JavaProjekte/wsDataMining/Beleg/Ingo/
-Bilder/AnalyseklassendiagrammText2ClusterFile.png (PNG copy)>] [13 <C:/Users/In
-go/Documents/JavaProjekte/wsDataMining/Beleg/Ingo/Bilder/Entwurfsklassendiagram
-mText2ClusterFile.png (PNG copy)>]
-<Ingo/Bilder/SimpleKMeans100Attr1024Cluster_15.png, id=275, 532.99126pt x 488.5
+(C:\Users\Syzyryk\Data\Beleg\Ingo/nachVersenGeclustert.tex [16] [17 <C:/Users/S
+yzyryk/Data/Beleg/Ingo/Bilder/AnalyseklassendiagrammText2ClusterFile.png (PNG c
+opy)>] [18 <C:/Users/Syzyryk/Data/Beleg/Ingo/Bilder/EntwurfsklassendiagrammText
+2ClusterFile.png (PNG copy)>]
+<Ingo/Bilder/SimpleKMeans100Attr1024Cluster_15.png, id=338, 532.99126pt x 488.5
 7532pt>
 File: Ingo/Bilder/SimpleKMeans100Attr1024Cluster_15.png Graphic file (type png)
 
@@ -606,7 +639,7 @@ Package pdftex.def Info: Ingo/Bilder/SimpleKMeans100Attr1024Cluster_15.png used
  on input line 19.
 (pdftex.def)             Requested size: 418.25368pt x 383.4132pt.
 
-<Ingo/Bilder/SimpleKMeans100Attr1024Cluster_49.png, id=276, 651.18282pt x 280.0
+<Ingo/Bilder/SimpleKMeans100Attr1024Cluster_49.png, id=339, 651.18282pt x 280.0
 4625pt>
 File: Ingo/Bilder/SimpleKMeans100Attr1024Cluster_49.png Graphic file (type png)
 
@@ -615,7 +648,7 @@ Package pdftex.def Info: Ingo/Bilder/SimpleKMeans100Attr1024Cluster_49.png used
  on input line 27.
 (pdftex.def)             Requested size: 418.25368pt x 179.8785pt.
 
-<Ingo/Bilder/SimpleKMeans100Attr1024Cluster_61.png, id=277, 143.03438pt x 176.9
+<Ingo/Bilder/SimpleKMeans100Attr1024Cluster_61.png, id=340, 143.03438pt x 176.9
 1093pt>
 File: Ingo/Bilder/SimpleKMeans100Attr1024Cluster_61.png Graphic file (type png)
 
@@ -624,7 +657,7 @@ Package pdftex.def Info: Ingo/Bilder/SimpleKMeans100Attr1024Cluster_61.png used
  on input line 35.
 (pdftex.def)             Requested size: 418.25368pt x 517.32335pt.
 
-<Ingo/Bilder/SimpleKMeans100Attr1024Cluster_86.png, id=278, 660.21657pt x 97.86
+<Ingo/Bilder/SimpleKMeans100Attr1024Cluster_86.png, id=341, 660.21657pt x 97.86
 563pt>
 File: Ingo/Bilder/SimpleKMeans100Attr1024Cluster_86.png Graphic file (type png)
 
@@ -633,7 +666,7 @@ Package pdftex.def Info: Ingo/Bilder/SimpleKMeans100Attr1024Cluster_86.png used
  on input line 42.
 (pdftex.def)             Requested size: 418.25368pt x 62.00061pt.
 
-<Ingo/Bilder/SimpleKMeans100Attr1024Cluster_554.png, id=279, 691.08188pt x 259.
+<Ingo/Bilder/SimpleKMeans100Attr1024Cluster_554.png, id=342, 691.08188pt x 259.
 7203pt>
 File: Ingo/Bilder/SimpleKMeans100Attr1024Cluster_554.png Graphic file (type png
 )
@@ -642,7 +675,7 @@ Package pdftex.def Info: Ingo/Bilder/SimpleKMeans100Attr1024Cluster_554.png use
 d on input line 49.
 (pdftex.def)             Requested size: 418.25368pt x 157.18872pt.
 
-<Ingo/Bilder/SimpleKMeans1000Attr32Cluster_4.png, id=280, 873.2625pt x 392.9681
+<Ingo/Bilder/SimpleKMeans1000Attr32Cluster_4.png, id=343, 873.2625pt x 392.9681
 2pt>
 File: Ingo/Bilder/SimpleKMeans1000Attr32Cluster_4.png Graphic file (type png)
  <use Ingo/Bilder/SimpleKMeans1000Attr32Cluster_4.png>
@@ -650,7 +683,7 @@ Package pdftex.def Info: Ingo/Bilder/SimpleKMeans1000Attr32Cluster_4.png used o
 n input line 56.
 (pdftex.def)             Requested size: 418.25368pt x 188.2148pt.
 
-<Ingo/Bilder/SimpleKMeans1000Attr32Cluster_5.png, id=281, 902.6222pt x 355.3275
+<Ingo/Bilder/SimpleKMeans1000Attr32Cluster_5.png, id=344, 902.6222pt x 355.3275
 pt>
 File: Ingo/Bilder/SimpleKMeans1000Attr32Cluster_5.png Graphic file (type png)
  <use Ingo/Bilder/SimpleKMeans1000Attr32Cluster_5.png>
@@ -658,7 +691,7 @@ Package pdftex.def Info: Ingo/Bilder/SimpleKMeans1000Attr32Cluster_5.png used o
 n input line 63.
 (pdftex.def)             Requested size: 418.25368pt x 164.65085pt.
 
-<Ingo/Bilder/SimpleKMeans1000Attr32Cluster_6.png, id=282, 161.85469pt x 231.866
+<Ingo/Bilder/SimpleKMeans1000Attr32Cluster_6.png, id=345, 161.85469pt x 231.866
 26pt>
 File: Ingo/Bilder/SimpleKMeans1000Attr32Cluster_6.png Graphic file (type png)
  <use Ingo/Bilder/SimpleKMeans1000Attr32Cluster_6.png>
@@ -666,7 +699,7 @@ Package pdftex.def Info: Ingo/Bilder/SimpleKMeans1000Attr32Cluster_6.png used o
 n input line 70.
 (pdftex.def)             Requested size: 418.25368pt x 599.21158pt.
 
-<Ingo/Bilder/SimpleKMeans1000Attr32Cluster_15.png, id=283, 456.20438pt x 392.96
+<Ingo/Bilder/SimpleKMeans1000Attr32Cluster_15.png, id=346, 456.20438pt x 392.96
 812pt>
 File: Ingo/Bilder/SimpleKMeans1000Attr32Cluster_15.png Graphic file (type png)
  <use Ingo/Bilder/SimpleKMeans1000Attr32Cluster_15.png>
@@ -674,54 +707,54 @@ Package pdftex.def Info: Ingo/Bilder/SimpleKMeans1000Attr32Cluster_15.png used
 on input line 78.
 (pdftex.def)             Requested size: 418.25368pt x 360.28784pt.
 )
-(C:\Users\Ingo\Documents\JavaProjekte\wsDataMining\Beleg\Ingo/Zusammenfassung.t
-ex) (C:\Users\Ingo\Documents\JavaProjekte\wsDataMining\Beleg\Ingo/Ausblick.tex)
-[14 <C:/Users/Ingo/Documents/JavaProjekte/wsDataMining/Beleg/Ingo/Bilder/Simple
-KMeans100Attr1024Cluster_15.png>] [15 <C:/Users/Ingo/Documents/JavaProjekte/wsD
-ataMining/Beleg/Ingo/Bilder/SimpleKMeans100Attr1024Cluster_49.png>]
-(C:\Users\Ingo\Documents\JavaProjekte\wsDataMining\Beleg\Arbeitsaufteilung.tex
-[16 <C:/Users/Ingo/Documents/JavaProjekte/wsDataMining/Beleg/Ingo/Bilder/Simple
-KMeans100Attr1024Cluster_61.png>] [17 <C:/Users/Ingo/Documents/JavaProjekte/wsD
-ataMining/Beleg/Ingo/Bilder/SimpleKMeans100Attr1024Cluster_86.png> <C:/Users/In
-go/Documents/JavaProjekte/wsDataMining/Beleg/Ingo/Bilder/SimpleKMeans100Attr102
-4Cluster_554.png> <C:/Users/Ingo/Documents/JavaProjekte/wsDataMining/Beleg/Ingo
-/Bilder/SimpleKMeans1000Attr32Cluster_4.png>] [18 <C:/Users/Ingo/Documents/Java
-Projekte/wsDataMining/Beleg/Ingo/Bilder/SimpleKMeans1000Attr32Cluster_5.png>]
-[19 <C:/Users/Ingo/Documents/JavaProjekte/wsDataMining/Beleg/Ingo/Bilder/Simple
-KMeans1000Attr32Cluster_6.png>] [20 <C:/Users/Ingo/Documents/JavaProjekte/wsDat
-aMining/Beleg/Ingo/Bilder/SimpleKMeans1000Attr32Cluster_15.png>]
+(C:\Users\Syzyryk\Data\Beleg\Ingo/Zusammenfassung.tex)
+(C:\Users\Syzyryk\Data\Beleg\Ingo/Ausblick.tex) [19 <C:/Users/Syzyryk/Data/Bele
+g/Ingo/Bilder/SimpleKMeans100Attr1024Cluster_15.png>] [20 <C:/Users/Syzyryk/Dat
+a/Beleg/Ingo/Bilder/SimpleKMeans100Attr1024Cluster_49.png>]
+(C:\Users\Syzyryk\Data\Beleg\Arbeitsaufteilung.tex [21 <C:/Users/Syzyryk/Data/B
+eleg/Ingo/Bilder/SimpleKMeans100Attr1024Cluster_61.png>] [22 <C:/Users/Syzyryk/
+Data/Beleg/Ingo/Bilder/SimpleKMeans100Attr1024Cluster_86.png> <C:/Users/Syzyryk
+/Data/Beleg/Ingo/Bilder/SimpleKMeans100Attr1024Cluster_554.png> <C:/Users/Syzyr
+yk/Data/Beleg/Ingo/Bilder/SimpleKMeans1000Attr32Cluster_4.png>] [23 <C:/Users/S
+yzyryk/Data/Beleg/Ingo/Bilder/SimpleKMeans1000Attr32Cluster_5.png>] [24 <C:/Use
+rs/Syzyryk/Data/Beleg/Ingo/Bilder/SimpleKMeans1000Attr32Cluster_6.png>]
+[25 <C:/Users/Syzyryk/Data/Beleg/Ingo/Bilder/SimpleKMeans1000Attr32Cluster_15.p
+ng>]
 Anhang A.
-) [21
+) [26
 
 ]
 Anhang B.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 174.
-[22
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 175.
+[27
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 174.
- (C:\Users\Ingo\Documents\JavaProjekte\wsDataMining\Beleg\master.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 174.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 174.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 175.
+ (C:\Users\Syzyryk\Data\Beleg\master.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 175.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 175.
 Package rerunfilecheck Info: File `master.out' has not changed.
-(rerunfilecheck)             Checksum: 56CCA1D82BE7497DD0468589364B4749;1599.
+(rerunfilecheck)             Checksum: 4987DE691BA5F67AC2F85F22E5B4AE38;1907.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 175.
  ) 
 Here is how much of TeX's memory you used:
- 8675 strings out of 494045
- 136336 string characters out of 3145972
- 251149 words of memory out of 3000000
- 11741 multiletter control sequences out of 15000+200000
- 9007 words of font info for 32 fonts, out of 3000000 for 9000
- 715 hyphenation exceptions out of 8191
- 45i,9n,55p,1073b,392s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 8797 strings out of 493921
+ 136658 string characters out of 3144871
+ 255935 words of memory out of 3000000
+ 11834 multiletter control sequences out of 15000+200000
+ 9301 words of font info for 33 fonts, out of 3000000 for 9000
+ 841 hyphenation exceptions out of 8191
+ 45i,9n,55p,1045b,513s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
-<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:
-/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsl12.pfb><C:/P
-rogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/P
-rogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on master.pdf (29 pages, 498195 bytes).
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C
+:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/P
+rogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsl12.pfb><C:/Pro
+gram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Pro
+gram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Progr
+am Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on master.pdf (35 pages, 535665 bytes).
 PDF statistics:
- 383 PDF objects out of 1000 (max. 8388607)
- 78 named destinations out of 1000 (max. 500000)
- 260 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 456 PDF objects out of 1000 (max. 8388607)
+ 100 named destinations out of 1000 (max. 500000)
+ 292 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,8 +1,8 @@
 \section{ARFF}\label{ARFF}
-Damit die Clusteralgorithmen auf das AT angewandt werden können, muss das AT vorher in das ARFF-Format (Attribute-Relation File Format) umgewandelt werden.
+Damit die Clusteralgorithmen auf das AT angewandt werden können, muss das AT vorher in das ARFF-Format \cite{bib3} (Attribute-Relation File Format) umgewandelt werden.
 
 ARFF (Attribute-Relation File Format) ist eine Textdatei, die eine Liste von Instanzen beschreibt, die sich eine Menge von Attributen teilen. Eine Instanz wäre in unserem Beispiel ein Vers des AT. Die Attribute, die sich ein Vers mit anderen Versen teilt, sind die Wörter aus denen der Vers besteht.
-Der Vers "`1. Am Anfang schuf Gott Himmel und Erde."' besteht aus der Attribut-Menge {1, Am, Anfang, schuf, Gott, und, Erde, Himmel}
+Der Vers "`1. Am Anfang schuf Gott Himmel und Erde."' besteht aus der Attribut-Menge \{1, Am, Anfang, schuf, Gott, und, Erde, Himmel\}
 
 Die Elemente "`1"', "`Himmel"', "`und"', "`Erde"' teilt sich der Vers z.B. mit dem Vers "`1. Also ward vollendet Himmel und Erde mit ihrem ganzen Heer."'
 
@@ -33,7 +33,7 @@ Für diese drei Verse werden zehn Attribute definiert:
 @ATTRIBUTE Fluss NUMERIC \\
 @ATTRIBUTE Feld NUMERIC \\
 
-Im Daten-Teil wird jeder Vers durch eine Instanz ausgedrückt. Die Instanz hat soviele Zahlen wie es Attribute im Header-Teil gibt. Eine 0 bedeutet, das Attribut kommt im Vers nicht vor. Eine 1 bedeutet, das Attribut kommt im Vers einmal vor.
+Im Daten-Teil wird jeder Vers durch eine Instanz ausgedrückt. Die Instanz hat soviele Zahlen, wie es Attribute im Header-Teil gibt. Eine 0 bedeutet, das Attribut kommt im Vers nicht vor. Eine 1 bedeutet, das Attribut kommt im Vers einmal vor.
 
 @DATA \\
 1,0,0,0,0,0,0,0,0,0 \\

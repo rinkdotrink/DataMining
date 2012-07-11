@@ -7,17 +7,21 @@
 \BOOKMARK [1][-]{section.1.5}{Testrechner}{chapter.1}% 7
 \BOOKMARK [1][-]{section.1.6}{Der Aufbau des Alten Testaments}{chapter.1}% 8
 \BOOKMARK [1][-]{section.1.7}{ARFF}{chapter.1}% 9
-\BOOKMARK [0][-]{chapter.2}{Umsetzung}{}% 10
-\BOOKMARK [1][-]{section.2.1}{Wie kann das AT in das ARFF-Format \374berf\374hrt werden?}{chapter.2}% 11
-\BOOKMARK [1][-]{section.2.2}{Analyse Text2ARFFConverter}{chapter.2}% 12
-\BOOKMARK [1][-]{section.2.3}{Entwurf Text2ARFFConverter}{chapter.2}% 13
-\BOOKMARK [1][-]{section.2.4}{Nach welchen W\366rtern sollte geclustert werden?}{chapter.2}% 14
-\BOOKMARK [1][-]{section.2.5}{H\374rden beim Einlesen der ARFF-Datei}{chapter.2}% 15
-\BOOKMARK [1][-]{section.2.6}{SimpleKMeans}{chapter.2}% 16
-\BOOKMARK [1][-]{section.2.7}{Weitere Cluster-Algorithmen}{chapter.2}% 17
-\BOOKMARK [1][-]{section.2.8}{geclusterte Instanzen wieder in Verse verwandeln}{chapter.2}% 18
-\BOOKMARK [1][-]{section.2.9}{AT mit SimpleKMeans geclustert}{chapter.2}% 19
-\BOOKMARK [1][-]{section.2.10}{Zusammenfassung}{chapter.2}% 20
-\BOOKMARK [1][-]{section.2.11}{Ausblick}{chapter.2}% 21
-\BOOKMARK [0][-]{appendix.A}{Arbeitsaufteilung}{}% 22
-\BOOKMARK [0][-]{appendix.B}{Eigenst\344ndigkeitserkl\344rung}{}% 23
+\BOOKMARK [1][-]{section.1.8}{Clustering-Verfahren}{chapter.1}% 10
+\BOOKMARK [2][-]{subsection.1.8.1}{Minimaldistanz-Verfahren}{section.1.8}% 11
+\BOOKMARK [2][-]{subsection.1.8.2}{Hierarchische-Verfahren}{section.1.8}% 12
+\BOOKMARK [2][-]{subsection.1.8.3}{Agglomerative Clusteranalyse}{section.1.8}% 13
+\BOOKMARK [0][-]{chapter.2}{Umsetzung}{}% 14
+\BOOKMARK [1][-]{section.2.1}{Wie kann das AT in das ARFF-Format \374berf\374hrt werden?}{chapter.2}% 15
+\BOOKMARK [1][-]{section.2.2}{Analyse Text2ARFFConverter}{chapter.2}% 16
+\BOOKMARK [1][-]{section.2.3}{Entwurf Text2ARFFConverter}{chapter.2}% 17
+\BOOKMARK [1][-]{section.2.4}{Nach welchen W\366rtern sollte geclustert werden?}{chapter.2}% 18
+\BOOKMARK [1][-]{section.2.5}{H\374rden beim Einlesen der ARFF-Datei}{chapter.2}% 19
+\BOOKMARK [1][-]{section.2.6}{SimpleKMeans}{chapter.2}% 20
+\BOOKMARK [1][-]{section.2.7}{Weitere Cluster-Algorithmen}{chapter.2}% 21
+\BOOKMARK [1][-]{section.2.8}{geclusterte Instanzen wieder in Verse verwandeln}{chapter.2}% 22
+\BOOKMARK [1][-]{section.2.9}{AT mit SimpleKMeans geclustert}{chapter.2}% 23
+\BOOKMARK [1][-]{section.2.10}{Zusammenfassung}{chapter.2}% 24
+\BOOKMARK [1][-]{section.2.11}{Ausblick}{chapter.2}% 25
+\BOOKMARK [0][-]{appendix.A}{Arbeitsaufteilung}{}% 26
+\BOOKMARK [0][-]{appendix.B}{Eigenst\344ndigkeitserkl\344rung}{}% 27
