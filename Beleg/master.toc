@@ -12,10 +12,10 @@
 \contentsline {section}{\numberline {2.1}Wie kann das AT in das ARFF-Format \"uberf\"uhrt werden?}{6}{section.2.1}
 \contentsline {section}{\numberline {2.2}Analyse Text2ARFFConverter}{6}{section.2.2}
 \contentsline {section}{\numberline {2.3}Entwurf Text2ARFFConverter}{6}{section.2.3}
-\contentsline {section}{\numberline {2.4}Nach welchen W\"ortern sollte geclustert werden?}{7}{section.2.4}
+\contentsline {section}{\numberline {2.4}Nach welchen W\"ortern sollte geclustert werden?}{9}{section.2.4}
 \contentsline {section}{\numberline {2.5}H\"urden beim Einlesen der ARFF-Datei}{9}{section.2.5}
 \contentsline {section}{\numberline {2.6}SimpleKMeans}{10}{section.2.6}
-\contentsline {section}{\numberline {2.7}Weitere Cluster-Algorithmen}{10}{section.2.7}
+\contentsline {section}{\numberline {2.7}Weitere Cluster-Algorithmen}{11}{section.2.7}
 \contentsline {section}{\numberline {2.8}geclusterte Instanzen wieder in Verse verwandeln}{11}{section.2.8}
 \contentsline {section}{\numberline {2.9}AT mit SimpleKMeans geclustert}{12}{section.2.9}
 \contentsline {section}{\numberline {2.10}Zusammenfassung}{14}{section.2.10}
