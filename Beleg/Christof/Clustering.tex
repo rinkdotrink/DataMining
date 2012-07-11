@@ -1,45 +1,46 @@
 \section{Clustering-Verfahren}\label{Clustering}
 Ziel des Clustering ist es in Datenbeständen Objekte zu finden, die möglichst ähnlich sind, um diese anschließend in Gruppen(Cluster) zu untergliedern. Im Gegensatz zur Klassifikation werden Daten nicht bestehenden Klassen zugeordnet, sondern neue Gruppen müssen identifiziert werden. Die gefundenen Gruppen können später beispielsweise zur Mustererkennung, automatisierten Klassifizierung oder Marktsegmentierung verwendet werden. Die Clustering-Verfahren lassen sich in partitionierende, hierarchische, graphentheoretische, optimierende sowie in weitere Unterverfahren einteilen. \\
-\begin{enumerate}
-\item \textbf{Partitionierende Verfahren} \\
-Bei den partitionierenden Verfahren ist die Anzahl der Cluster am Anfang festgelegt und es werden keine zusätzlichen Gruppen gebildet. Die Prozesse beginnen immer mit einer vorgegebenen Anfangspartition und die einzelnen Objekte werden iterativ von einer Klasse in eine andere verschoben. Dabei wird ein gewähltes Kriterium schrittweise optimiert, wie beispielsweise die Distanz zwischen Objekten. Die partitionierende Verfahren kann man in zwei Kategorien einteilen:
-\begin{enumerate}
-\item \textbf{Austauschverfahren mit Zielfunktion}(Hill-climbing methods) \\
- Die Anfangspartition wird gemäß eines Gütekriteriums iterativ durch Umgruppierung der Objekte verbessert. Bei jedem Objekt wird überprüft, ob eine Verschiebung in eine andere Klasse das Gütekriterium verbessert oder nicht. Als Gütekriterium verwendet man bei Clusteranalysen häufig das Varianzkriterium. Weitere in Frage kommenden Kriterien sind das Spurkriterium oder das Determinantenkriterium.
-\item \textbf{Minimaldistanz-Verfahren} \\
+
+\subsection{Partitionierende Verfahren}\label{Partitionierende}
+Bei den partitionierenden Verfahren ist die Anzahl der Cluster am Anfang festgelegt und es werden keine zusätzlichen Gruppen gebildet. Die Prozesse beginnen immer mit einer vorgegebenen Anfangspartition und die einzelnen Objekte werden iterativ von einer Klasse in eine andere verschoben. Dabei wird ein gewähltes Kriterium schrittweise optimiert, wie beispielsweise die Distanz zwischen Objekten. Die partitionierenden Verfahren kann man in zwei Kategorien einteilen:
+
+\subsubsection{Austauschverfahren mit Zielfunktion}(Hill-climbing methods)\label{Austausch}
+Die Anfangspartition wird gemäß eines Gütekriteriums iterativ durch Umgruppierung der Objekte verbessert. Bei jedem Objekt wird überprüft, ob eine Verschiebung in eine andere Klasse das Gütekriterium verbessert oder nicht. Als Gütekriterium verwendet man bei Clusteranalysen häufig das Varianzkriterium. Weitere in Frage kommenden Kriterien sind das Spurkriterium oder das Determinantenkriterium.
+\subsubsection{Minimaldistanz-Verfahren}\label{Minimal}
 Die Anfangspartition wird bei diesem Verfahren iterativ verbessert indem jedes Objekt der Klasse hinzugefügt wird, zu deren Klassenzentroid es die geringste euklidische Distanz hat. Beendet wird das Verfahren wenn keine Verschiebung von Objekten mehr stattfindet.
-\end{enumerate}
-\end{enumerate}
+
+
 
 \subsection{Minimaldistanz-Verfahren}\label{Minimaldistanz}
-\begin{enumerate}
-\item \textbf{k-Means-Verfahren} \\
+
+\subsubsection{k-Means-Verfahren}\label{kmeans}
 Eine gute und bekannte Clustering-Methode in der Kategorie der Minimaldistanzverfahren ist das k-Means-Verfahren. Dabei wird ebenfalls die euklidische Distanz herangezogen mit dem Unterschied, dass nach jedem Klassenwechsel die Klassenzentroide neu berechnet werden und dieses Verfahren gegen ein lokales Optimum konvergiert. Beendet wird das k-Means-Verfahren wenn z-mal hintereinander keine Objekte mehr verschoben wurden, und somit jedes Objekt zu seinem Klassenzentroid den geringsten euklidischen Abstand im Vergleich zu anderen Klassen aufweist. Der Nachteil dieser Methode ist, dass die Lösung von der Reihefolge der Iterationen abhängt und nicht nur von der Anfangspartition, außerdem können Ausreißer nicht erkannt werden.
-\item \textbf{EM-Algorithmus}(Expected Maximization)
+\subsubsection{EM-Algorithmus}(Expected Maximization)\label{em}
 Der EM-Algorithmus ist ein effizientes und iteratives Verfahren zur Maximum-Likelihood-Schätzung und eignet sich sehr gut für die Durchführung der ML-Schätzung mit fehlenden oder versteckten Daten. 
 Der EM-Algorithmus wird auch als Clusterverfahren eingesetzt. Zu Beginn des Vorgangs wird wie bei dem k-Means-Verfahren die Anzahl von Clustern vorgegeben. Anschließend muss für jedes Cluster ein Clustermittelpunkt bestimmt werden, der zufällig generiert wird oder mit Hilfe des k-Means-Verfahrens berechnet wird. Auch eine Start-Varianz muss festgelegt werden. Der eigentliche Algorithmus durchläuft dann zwei Schritte:
 \begin{itemize}
-\item Expectation \\
+\item \textbf{Expectation} \\
 In diesem Schritt wird die bedingte Wahrscheinlichkeit für jedes Objekt und Cluster berechnet. 
 Dadurch soll herausgefunden werden wie hoch die Zugehörigkeitswahrscheinlichkeit dieses Objekts zu dem jeweiligen Cluster ist.
 Anschließend werden die Objekte mit der höchsten Wahrscheinlichkeit dem zutreffenden Cluster zugewiesen. Da man die Startparameter relativ frei wählen kann, ist die Wahrscheinlichkeit sehr gering, dass die Clustereinteilung bereits optimal ist und das entstandene Modell muss im zweiten Schritt des EM-Algorithmus angepasst werden.
 
-\item Maximization \\
+\item \textbf{Maximization} \\
 Um das Modell zu verbessern, müssen bessere Werte für den Erwartungswert und die Varianz gefunden werden. Dabei werden zuerst die einzelnen Objekte hinsichtlich ihrer Ähnlichkeit zum angenommenen Clustermittelpunkt gewichtet und anschließend wird für jedes Cluster ein gewichteter Erwartungswert und auch eine neue, gewichtete Varianz berechnet. Man kann nun davon ausgehen, dass die Clustermittelpunkte sich den Objekten am stärksten annähern und somit eine klare Zuordnung möglich ist.
 Dieser Algorithmus wird nun iterativ angewendet und mit jeder Iteration verbessert sich dich die Qualität des Modells.
 
 \end{itemize}
-\item \textbf{DBSCAN} \\
-Bei DBSCAN handelt es sich um einen dichtebasierten Algorithmus der 1996 entwickelt worden ist. Dem Algorithmus werden zwei Parameter übergeben: 
+
+\subsubsection{DBSCAN}\label{dbscan}
+Bei DBSCAN handelt es sich um einen dichtebasierten Algorithmus dem zwei Parameter übergeben werden: 
 \begin{itemize}
 \item $\epsilon$: Bei diesem Parameter handelt es sich um die Nachbarschaftslänge eines Punktes. Das bedeutet, dass ein Punkt von einem Nachbarpunkt genau dann erreichbar ist, wenn die Distanz kleiner als $\epsilon$ ist.
 \item "`minPts"': Mit diesem Parameter wird die  minimale Anzahl an $\epsilon$-erreichbaren Punkten vorgegeben, die ein Objekt um sich als Nachbarn haben muss um die Eigenschaft eines Kernobjektes zu bekommen.
 \end{itemize}
  In DBSCAN gibt es außer den zwei Parametern drei Arten von Objekten:
 \begin{itemize}
-\item Kernobjekte: Sie liegen im Inneren einer dichten Region, d.h., dass die Anzahl an $\epsilon$-erreichbaren Nachbarn mindestens MinPts beträgt.
-\item Randobjekte: Das sind zwar keine Kernobjekte, da die Anzahl weniger als MinPts beträgt, aber sie liegen in der $\epsilon$-Umgebung eines Kernobjektes und werden somit Randobjekte genannt.
-\item Rauschobjekte: Das sind Objekte die weder Kern- noch Randpunkte sind und außerhalb der epsilon-Umgebung liegen. \\
+\item Kernobjekte: Sie liegen im Inneren einer dichten Region, d.h., dass die Anzahl an $\epsilon$-erreichbaren Nachbarn mindestens minPts beträgt.
+\item Randobjekte: Das sind zwar keine Kernobjekte, da die Anzahl weniger als minPts beträgt, aber sie liegen in der $\epsilon$-Umgebung eines Kernobjektes und werden somit Randobjekte genannt.
+\item Rauschobjekte: Das sind Objekte die weder Kern- noch Randpunkte sind und außerhalb der $\epsilon$-Umgebung liegen. \\
 \end{itemize}
 Der DBSCAN-Algorithmus:
 \begin{enumerate}
@@ -48,8 +49,9 @@ Der DBSCAN-Algorithmus:
 \item Alle Kernobjekte, die in einer $\epsilon$-Umgebung liegen werden durch eine Kante verbunden und bilden ein Cluster. 
 \item Die Randobjekte werden dem Cluster eines benachbarten Kernobjektes zugeordnet.
 \end{enumerate}
-Der Vorteil von DBSCAN ist, dass es das Rauschen gut filtern kann jedoch hat es Schwierigkeiten mit der Erkennung von Clustern mit unterschiedlichen Dichten und in bestimmten Fällen werden Rauschgebiete als Cluster erkannt.
-\end{enumerate}
+Der Vorteil von DBSCAN ist, dass es das Rauschen gut filtern kann, es hat jedoch Schwierigkeiten mit der Erkennung von Clustern mit unterschiedlichen Dichten, und in bestimmten Fällen werden Rauschgebiete als Cluster erkannt.
+
+
 \subsection{Hierarchische-Verfahren}\label{Hierarchische}
 Bei dem hierarchischen Clusterverfahren ist die Anzahl der Cluster am Anfang nicht festgelegt, sondern wird während der Durchführung bestimmt. Man unterscheidet dabei zwei grundlegende Vorgehensweisen:
 \begin{enumerate}
@@ -70,12 +72,12 @@ Jaccard, Tanimoto, Simple Matching, Russel Rao, Dice, Kulczynski \\
 
 \textbf{Fusionierungsalgorithmen:}
 \begin{itemize}
-\item Single-Linkage: Vereinigt Objekte mit der geringsten Unähnlichkeit. Dieses Verfahren eignet sich besonders zur Isolierung von Außreißern, also bei Objekten, die eine große Unähnlichkeit aufweißen. Diese werden erst in den letzten Iterationsschritten an eine große Gruppe angehängt und sind auch im Dendogramm relativ gut sichtbar, d.h. dass sie lange allein bleiben, als eigene Gruppe. Wenn man die Ausreißer entfernt hat, kann man mit dem Ward-Verfahren nach homogenen Clustern suchen. Das Single-Linkage-Verfahren ist kontrahierend, d.h., dass es wenige große Gruppen gibt, aber viele kleine Gruppen. Die kleinen Gruppen sind die Außreißer und können identifiziert werden. Eine weitere Eigenschaft dieses Verfahrens ist, dass es zur Kettenbildung neigt, also zu langgestreckten Clustern aufgrund von Brückenobjekten. Dabei werden eng aneinanderliegende Objekte zu einer Gruppe zusammengefasst obwohl Erzeugung zweier Gruppen möglich wäre.
-\item Complete-Linkage: Vereinigt Objekte mit der größten Unähnlichkeit. Dieses Verfahren ist dilatierend, d.h. es entstehen sehr viele einzelne gleich große Gruppen, außerdem neigt es zur Bildung kleiner Gruppen. Es ist kaum anfällig gegenüber Außreißern.
-\item Average Link: Durchschnittliche Distanz zwischen den Objekten aus zwei Clustern. Hierbei werden zuerst alle Abstände zwischen den Objekten zweier Cluster berechnet und dann wird der Mittelwert über die Abstände gebildet. Dieses Verfahren ist konservativ, d.h. es ist weder dilatierend noch kontrahierend.
-\item Average Group Linkage: Durschschnittliche Distanz zwischen den Objekten aus zwei Clustern, als auch zwischen den Objekten innerhalb eines Clusters. Die Objekte des neuen Clusters haben eine möglichst geringe Distanz innerhalb des Clusters. 
-\item Centroid-Verfahren: gewichtete Distanz zwischen den Clusterzentren
-\item Ward-Verfahren: Es vereinigt Objekte, die die Streuung in einer Gruppe am geringsten erhöhen(homogene Cluster). Bei diesem Verfahren wird jedes Clusterpaar rechnerisch zu einem neuen Cluster zusammengesetzt, danach wird die clusterinterne Fehlerquadratsumme gebildet, das bedeutet, dass die Summe der euklidischen Abstände aller Objekte dieses Clusters zu deren Mittelpunkt berechnet wird. Zusammengesetzt wird schließlich dasjenige Clusterpaar bei dem die Fehlerquadratsumme am kleinsten ist. Es neigt also zur Bildung gleichgroßer Gruppen.
+\item \textbf{Single-Linkage}: Vereinigt Objekte mit der geringsten Unähnlichkeit. Dieses Verfahren eignet sich besonders zur Isolierung von Außreißern, also bei Objekten, die eine große Unähnlichkeit aufweißen. Diese werden erst in den letzten Iterationsschritten an eine große Gruppe angehängt und sind auch im Dendogramm relativ gut sichtbar, d.h. dass sie lange allein bleiben, als eigene Gruppe. Wenn man die Ausreißer entfernt hat, kann man mit dem Ward-Verfahren nach homogenen Clustern suchen. Das Single-Linkage-Verfahren ist kontrahierend, d.h., dass es wenige große Gruppen gibt, aber viele kleine Gruppen. Die kleinen Gruppen sind die Außreißer und können identifiziert werden. Eine weitere Eigenschaft dieses Verfahrens ist, dass es zur Kettenbildung neigt, also zu langgestreckten Clustern aufgrund von Brückenobjekten. Dabei werden eng aneinanderliegende Objekte zu einer Gruppe zusammengefasst obwohl Erzeugung zweier Gruppen möglich wäre.
+\item \textbf{Complete-Linkage}: Vereinigt Objekte mit der größten Unähnlichkeit. Dieses Verfahren ist dilatierend, d.h. es entstehen sehr viele einzelne gleich große Gruppen, außerdem neigt es zur Bildung kleiner Gruppen. Es ist kaum anfällig gegenüber Außreißern.
+\item \textbf{Average Link}: Durchschnittliche Distanz zwischen den Objekten aus zwei Clustern. Hierbei werden zuerst alle Abstände zwischen den Objekten zweier Cluster berechnet und dann wird der Mittelwert über die Abstände gebildet. Dieses Verfahren ist konservativ, d.h. es ist weder dilatierend noch kontrahierend.
+\item \textbf{Average Group Linkage}: Durschschnittliche Distanz zwischen den Objekten aus zwei Clustern, als auch zwischen den Objekten innerhalb eines Clusters. Die Objekte des neuen Clusters haben eine möglichst geringe Distanz innerhalb des Clusters. 
+\item \textbf{Centroid-Verfahren}: gewichtete Distanz zwischen den Clusterzentren
+\item \textbf{Ward-Verfahren}: Es vereinigt Objekte, die die Streuung in einer Gruppe am geringsten erhöhen(homogene Cluster). Bei diesem Verfahren wird jedes Clusterpaar rechnerisch zu einem neuen Cluster zusammengesetzt, danach wird die clusterinterne Fehlerquadratsumme gebildet, das bedeutet, dass die Summe der euklidischen Abstände aller Objekte dieses Clusters zu deren Mittelpunkt berechnet wird. Zusammengesetzt wird schließlich dasjenige Clusterpaar bei dem die Fehlerquadratsumme am kleinsten ist. Es neigt also zur Bildung gleichgroßer Gruppen.
 \item weitere Methoden: Density Linkage, Uniform-Kernel, Wong's Hybrid, EML, Flexible-Beta, McQuitty's Similarity Analysis, Medoid
 \end{itemize}
 

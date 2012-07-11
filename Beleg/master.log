@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2012.7.9)  11 JUL 2012 14:43
-=======
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.1.16)  11 JUL 2012 10:27
->>>>>>> 182b2a4f250985f4bc5c3d4bb6a76c5be033690b
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2012.7.9)  11 JUL 2012 16:03
 entering extended mode
 **C:/Users/Syzyryk/Data/Beleg/master.tex
 (C:/Users/Syzyryk/Data/Beleg/master.tex
@@ -461,24 +457,11 @@ LaTeX Font Info:    External font `cmex10' loaded for size
  [3]
 (C:\Users\Syzyryk\Data\Beleg\master.lof)
 \tf@lof=\write5
+ [4
 
-
-Class scrreprt Warning: Usage of deprecated \float@listhead!
-(scrreprt)              You should use the features of package `tocbasic'
-(scrreprt)              instead of \float@listhead.
-(scrreprt)              Definition of \float@listhead my be removed from
-(scrreprt)              `scrreprt' soon, so it should not be used  on input lin
-e 76.
-
-[4
-
-] (C:\Users\Syzyryk\Data\Beleg\master.lol)
-\tf@lol=\write6
- [5
+] [5
 
 ] [6
-
-] [7
 
 ]
 Kapitel 1.
@@ -495,15 +478,9 @@ Class scrreprt Warning: \float@addtolists detected!
 (C:\Users\Syzyryk\Data\Beleg\Ingo/AktuellerWissensstand.tex [1
 
 ])
-<<<<<<< HEAD
 (C:\Users\Syzyryk\Data\Beleg\Ingo/Testrechner.tex)
 (C:\Users\Syzyryk\Data\Beleg\Ingo/AufbauAT.tex [2]
 <Ingo/Bilder/AufbauAT.png, id=225, 356.83313pt x 67.75313pt>
-=======
-(C:\Users\Ingo\Documents\JavaProjekte\wsDataMining\Beleg\Ingo/Testrechner.tex)
-(C:\Users\Ingo\Documents\JavaProjekte\wsDataMining\Beleg\Ingo/AufbauAT.tex
-[2] <Ingo/Bilder/AufbauAT.png, id=201, 356.83313pt x 67.75313pt>
->>>>>>> 182b2a4f250985f4bc5c3d4bb6a76c5be033690b
 File: Ingo/Bilder/AufbauAT.png Graphic file (type png)
 
 <use Ingo/Bilder/AufbauAT.png>
@@ -515,22 +492,9 @@ LaTeX Font Info:    Try loading font information for OMS+cmr on input line 5.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-<<<<<<< HEAD
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 5.
  [3 <C:/Users/Syzyryk/Data/Beleg/Ingo/Bilder/AufbauAT.png>]
-=======
-(C:\Users\Ingo\Documents\JavaProjekte\wsDataMining\Beleg\Ingo/ARFF.tex
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 5.
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omscmr.fd"
-File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 5.
- [3 <C:/Users/Ingo/Documents/JavaProjekte/wsDataMining/Beleg/Ingo/Bilder/Aufbau
-AT.png>]
->>>>>>> 182b2a4f250985f4bc5c3d4bb6a76c5be033690b
 Underfull \hbox (badness 10000) in paragraph at lines 16--19
 
  []
@@ -555,42 +519,30 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--3
 
  []
 
-
-Overfull \hbox (8.6849pt too wide) in paragraph at lines 7--9
-\OT1/cmr/m/n/12 Um-grup-pie-rung der Ob-jek-te ver-bes-sert. Bei je-dem Ob-jekt
- wird []uberpr[]uft,
- []
-
-[5] [6]
-Overfull \hbox (23.2343pt too wide) in paragraph at lines 36--37
-[][]\OT1/cmr/m/n/12 min-Pts\: Mit die-sem Pa-ra-me-ter wird die mi-ni-ma-le An-
-zahl an $\OML/cmm/m/it/12 $\OT1/cmr/m/n/12 -erreichbaren
- []
-
-[7]
-Underfull \hbox (badness 10000) in paragraph at lines 42--43
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 61--62
+[5] [6] [7]
+Underfull \hbox (badness 10000) in paragraph at lines 43--44
 
  []
 
 [8]
-Underfull \hbox (badness 10000) in paragraph at lines 64--69
+Underfull \hbox (badness 10000) in paragraph at lines 63--64
 
  []
 
-[9]) [10]
+
+Underfull \hbox (badness 10000) in paragraph at lines 66--69
+
+ []
+
+[9]
+Underfull \hbox (badness 10000) in paragraph at lines 70--72
+
+ []
+
+[10]) [11]
 Kapitel 2.
-<<<<<<< HEAD
 (C:\Users\Syzyryk\Data\Beleg\Ingo/ATzuARFF.tex
-<Ingo/Bilder/Analyseklassendiagramm_Text2ARFFConverter.png, id=277, 552.0625pt 
-=======
-(C:\Users\Ingo\Documents\JavaProjekte\wsDataMining\Beleg\Ingo/ATzuARFF.tex
-<Ingo/Bilder/Analyseklassendiagramm_Text2ARFFConverter.png, id=219, 552.0625pt 
->>>>>>> 182b2a4f250985f4bc5c3d4bb6a76c5be033690b
+<Ingo/Bilder/Analyseklassendiagramm_Text2ARFFConverter.png, id=280, 552.0625pt 
 x 652.4375pt>
 File: Ingo/Bilder/Analyseklassendiagramm_Text2ARFFConverter.png Graphic file (t
 ype png)
@@ -599,11 +551,7 @@ Package pdftex.def Info: Ingo/Bilder/Analyseklassendiagramm_Text2ARFFConverter.
 png used on input line 10.
 (pdftex.def)             Requested size: 418.25368pt x 494.32452pt.
 
-<<<<<<< HEAD
-<Ingo/Bilder/Entwurfsklassendiagramm_Text2ARFFConverter.png, id=280, 833.1125pt
-=======
-<Ingo/Bilder/Entwurfsklassendiagramm_Text2ARFFConverter.png, id=222, 833.1125pt
->>>>>>> 182b2a4f250985f4bc5c3d4bb6a76c5be033690b
+<Ingo/Bilder/Entwurfsklassendiagramm_Text2ARFFConverter.png, id=283, 833.1125pt
  x 1264.725pt>
 File: Ingo/Bilder/Entwurfsklassendiagramm_Text2ARFFConverter.png Graphic file (
 type png)
@@ -616,49 +564,31 @@ Package pdftex.def Info: Ingo/Bilder/Entwurfsklassendiagramm_Text2ARFFConverter
 
 LaTeX Warning: Float too large for page by 24.26549pt on input line 24.
 
-<<<<<<< HEAD
-) (C:\Users\Syzyryk\Data\Beleg\Ingo/WelcheWoerter.tex [11
+) (C:\Users\Syzyryk\Data\Beleg\Ingo/WelcheWoerter.tex [12
 
 ])
-(C:\Users\Syzyryk\Data\Beleg\Ingo/Probleme.tex [12 <C:/Users/Syzyryk/Data/Beleg
+(C:\Users\Syzyryk\Data\Beleg\Ingo/Probleme.tex [13 <C:/Users/Syzyryk/Data/Beleg
 /Ingo/Bilder/Analyseklassendiagramm_Text2ARFFConverter.png (PNG copy)>]
-[13 <C:/Users/Syzyryk/Data/Beleg/Ingo/Bilder/Entwurfsklassendiagramm_Text2ARFFC
-onverter.png (PNG copy)>] [14])
+[14 <C:/Users/Syzyryk/Data/Beleg/Ingo/Bilder/Entwurfsklassendiagramm_Text2ARFFC
+onverter.png (PNG copy)>] [15])
 (C:\Users\Syzyryk\Data\Beleg\Ingo/SimpleKMeans.tex
-<Ingo/Bilder/SimpleKMeans.png, id=300, 602.25pt x 372.39125pt>
-=======
-)
-(C:\Users\Ingo\Documents\JavaProjekte\wsDataMining\Beleg\Ingo/WelcheWoerter.tex
-[6
-
-]) (C:\Users\Ingo\Documents\JavaProjekte\wsDataMining\Beleg\Ingo/Probleme.tex [
-7 <C:/Users/Ingo/Documents/JavaProjekte/wsDataMining/Beleg/Ingo/Bilder/Analysek
-lassendiagramm_Text2ARFFConverter.png (PNG copy)>] [8 <C:/Users/Ingo/Documents/
-JavaProjekte/wsDataMining/Beleg/Ingo/Bilder/Entwurfsklassendiagramm_Text2ARFFCo
-nverter.png (PNG copy)>] [9])
-(C:\Users\Ingo\Documents\JavaProjekte\wsDataMining\Beleg\Ingo/SimpleKMeans.tex
-<Ingo/Bilder/SimpleKMeans.png, id=242, 602.25pt x 372.39125pt>
->>>>>>> 182b2a4f250985f4bc5c3d4bb6a76c5be033690b
+<Ingo/Bilder/SimpleKMeans.png, id=303, 602.25pt x 372.39125pt>
 File: Ingo/Bilder/SimpleKMeans.png Graphic file (type png)
 
 <use Ingo/Bilder/SimpleKMeans.png>
 Package pdftex.def Info: Ingo/Bilder/SimpleKMeans.png used on input line 6.
 (pdftex.def)             Requested size: 418.25368pt x 258.63217pt.
 )
-(C:\Users\Syzyryk\Data\Beleg\Ingo/weitereClusterAlg.tex [15 <C:/Users/Syzyryk/D
+(C:\Users\Syzyryk\Data\Beleg\Ingo/weitereClusterAlg.tex [16 <C:/Users/Syzyryk/D
 ata/Beleg/Ingo/Bilder/SimpleKMeans.png (PNG copy)>])
 (C:\Users\Syzyryk\Data\Beleg\Ingo/Text2ClusterFile.tex
 Overfull \hbox (8.05858pt too wide) in paragraph at lines 4--5
-[]\OT1/cmr/m/n/12 In Ab-bil-dung [][]2.4[][] auf Sei-te [][]17[][] ist das Ent-
+[]\OT1/cmr/m/n/12 In Ab-bil-dung [][]2.4[][] auf Sei-te [][]18[][] ist das Ent-
 wurfs-klas-sen-dia-gramm von Text2ClusterFile
  []
 
 
-<<<<<<< HEAD
-<Ingo/Bilder/AnalyseklassendiagrammText2ClusterFile.png, id=309, 702.625pt x 34
-=======
-<Ingo/Bilder/AnalyseklassendiagrammText2ClusterFile.png, id=251, 702.625pt x 34
->>>>>>> 182b2a4f250985f4bc5c3d4bb6a76c5be033690b
+<Ingo/Bilder/AnalyseklassendiagrammText2ClusterFile.png, id=312, 702.625pt x 34
 1.275pt>
 File: Ingo/Bilder/AnalyseklassendiagrammText2ClusterFile.png Graphic file (type
  png)
@@ -667,11 +597,7 @@ Package pdftex.def Info: Ingo/Bilder/AnalyseklassendiagrammText2ClusterFile.png
  used on input line 8.
 (pdftex.def)             Requested size: 418.25368pt x 203.15747pt.
 
-<<<<<<< HEAD
-<Ingo/Bilder/EntwurfsklassendiagrammText2ClusterFile.png, id=310, 682.55pt x 85
-=======
-<Ingo/Bilder/EntwurfsklassendiagrammText2ClusterFile.png, id=252, 682.55pt x 85
->>>>>>> 182b2a4f250985f4bc5c3d4bb6a76c5be033690b
+<Ingo/Bilder/EntwurfsklassendiagrammText2ClusterFile.png, id=313, 682.55pt x 85
 3.1875pt>
 File: Ingo/Bilder/EntwurfsklassendiagrammText2ClusterFile.png Graphic file (typ
 e png)
@@ -680,20 +606,11 @@ Package pdftex.def Info: Ingo/Bilder/EntwurfsklassendiagrammText2ClusterFile.pn
 g used on input line 15.
 (pdftex.def)             Requested size: 418.25368pt x 522.82602pt.
 )
-<<<<<<< HEAD
-(C:\Users\Syzyryk\Data\Beleg\Ingo/nachVersenGeclustert.tex [16] [17 <C:/Users/S
+(C:\Users\Syzyryk\Data\Beleg\Ingo/nachVersenGeclustert.tex [17] [18 <C:/Users/S
 yzyryk/Data/Beleg/Ingo/Bilder/AnalyseklassendiagrammText2ClusterFile.png (PNG c
-opy)>] [18 <C:/Users/Syzyryk/Data/Beleg/Ingo/Bilder/EntwurfsklassendiagrammText
+opy)>] [19 <C:/Users/Syzyryk/Data/Beleg/Ingo/Bilder/EntwurfsklassendiagrammText
 2ClusterFile.png (PNG copy)>]
-<Ingo/Bilder/SimpleKMeans100Attr1024Cluster_15.png, id=338, 532.99126pt x 488.5
-=======
-(C:\Users\Ingo\Documents\JavaProjekte\wsDataMining\Beleg\Ingo/nachVersenGeclust
-ert.tex [11] [12 <C:/Users/Ingo/Documents/JavaProjekte/wsDataMining/Beleg/Ingo/
-Bilder/AnalyseklassendiagrammText2ClusterFile.png (PNG copy)>] [13 <C:/Users/In
-go/Documents/JavaProjekte/wsDataMining/Beleg/Ingo/Bilder/Entwurfsklassendiagram
-mText2ClusterFile.png (PNG copy)>]
-<Ingo/Bilder/SimpleKMeans100Attr1024Cluster_15.png, id=280, 532.99126pt x 488.5
->>>>>>> 182b2a4f250985f4bc5c3d4bb6a76c5be033690b
+<Ingo/Bilder/SimpleKMeans100Attr1024Cluster_15.png, id=341, 532.99126pt x 488.5
 7532pt>
 File: Ingo/Bilder/SimpleKMeans100Attr1024Cluster_15.png Graphic file (type png)
 
@@ -702,11 +619,7 @@ Package pdftex.def Info: Ingo/Bilder/SimpleKMeans100Attr1024Cluster_15.png used
  on input line 19.
 (pdftex.def)             Requested size: 418.25368pt x 383.4132pt.
 
-<<<<<<< HEAD
-<Ingo/Bilder/SimpleKMeans100Attr1024Cluster_49.png, id=339, 651.18282pt x 280.0
-=======
-<Ingo/Bilder/SimpleKMeans100Attr1024Cluster_49.png, id=281, 651.18282pt x 280.0
->>>>>>> 182b2a4f250985f4bc5c3d4bb6a76c5be033690b
+<Ingo/Bilder/SimpleKMeans100Attr1024Cluster_49.png, id=342, 651.18282pt x 280.0
 4625pt>
 File: Ingo/Bilder/SimpleKMeans100Attr1024Cluster_49.png Graphic file (type png)
 
@@ -715,11 +628,7 @@ Package pdftex.def Info: Ingo/Bilder/SimpleKMeans100Attr1024Cluster_49.png used
  on input line 27.
 (pdftex.def)             Requested size: 418.25368pt x 179.8785pt.
 
-<<<<<<< HEAD
-<Ingo/Bilder/SimpleKMeans100Attr1024Cluster_61.png, id=340, 143.03438pt x 176.9
-=======
-<Ingo/Bilder/SimpleKMeans100Attr1024Cluster_61.png, id=282, 143.03438pt x 176.9
->>>>>>> 182b2a4f250985f4bc5c3d4bb6a76c5be033690b
+<Ingo/Bilder/SimpleKMeans100Attr1024Cluster_61.png, id=343, 143.03438pt x 176.9
 1093pt>
 File: Ingo/Bilder/SimpleKMeans100Attr1024Cluster_61.png Graphic file (type png)
 
@@ -728,11 +637,7 @@ Package pdftex.def Info: Ingo/Bilder/SimpleKMeans100Attr1024Cluster_61.png used
  on input line 35.
 (pdftex.def)             Requested size: 418.25368pt x 517.32335pt.
 
-<<<<<<< HEAD
-<Ingo/Bilder/SimpleKMeans100Attr1024Cluster_86.png, id=341, 660.21657pt x 97.86
-=======
-<Ingo/Bilder/SimpleKMeans100Attr1024Cluster_86.png, id=283, 660.21657pt x 97.86
->>>>>>> 182b2a4f250985f4bc5c3d4bb6a76c5be033690b
+<Ingo/Bilder/SimpleKMeans100Attr1024Cluster_86.png, id=344, 660.21657pt x 97.86
 563pt>
 File: Ingo/Bilder/SimpleKMeans100Attr1024Cluster_86.png Graphic file (type png)
 
@@ -741,11 +646,7 @@ Package pdftex.def Info: Ingo/Bilder/SimpleKMeans100Attr1024Cluster_86.png used
  on input line 42.
 (pdftex.def)             Requested size: 418.25368pt x 62.00061pt.
 
-<<<<<<< HEAD
-<Ingo/Bilder/SimpleKMeans100Attr1024Cluster_554.png, id=342, 691.08188pt x 259.
-=======
-<Ingo/Bilder/SimpleKMeans100Attr1024Cluster_554.png, id=284, 691.08188pt x 259.
->>>>>>> 182b2a4f250985f4bc5c3d4bb6a76c5be033690b
+<Ingo/Bilder/SimpleKMeans100Attr1024Cluster_554.png, id=345, 691.08188pt x 259.
 7203pt>
 File: Ingo/Bilder/SimpleKMeans100Attr1024Cluster_554.png Graphic file (type png
 )
@@ -754,11 +655,7 @@ Package pdftex.def Info: Ingo/Bilder/SimpleKMeans100Attr1024Cluster_554.png use
 d on input line 49.
 (pdftex.def)             Requested size: 418.25368pt x 157.18872pt.
 
-<<<<<<< HEAD
-<Ingo/Bilder/SimpleKMeans1000Attr32Cluster_4.png, id=343, 873.2625pt x 392.9681
-=======
-<Ingo/Bilder/SimpleKMeans1000Attr32Cluster_4.png, id=285, 873.2625pt x 392.9681
->>>>>>> 182b2a4f250985f4bc5c3d4bb6a76c5be033690b
+<Ingo/Bilder/SimpleKMeans1000Attr32Cluster_4.png, id=346, 873.2625pt x 392.9681
 2pt>
 File: Ingo/Bilder/SimpleKMeans1000Attr32Cluster_4.png Graphic file (type png)
  <use Ingo/Bilder/SimpleKMeans1000Attr32Cluster_4.png>
@@ -766,11 +663,7 @@ Package pdftex.def Info: Ingo/Bilder/SimpleKMeans1000Attr32Cluster_4.png used o
 n input line 56.
 (pdftex.def)             Requested size: 418.25368pt x 188.2148pt.
 
-<<<<<<< HEAD
-<Ingo/Bilder/SimpleKMeans1000Attr32Cluster_5.png, id=344, 902.6222pt x 355.3275
-=======
-<Ingo/Bilder/SimpleKMeans1000Attr32Cluster_5.png, id=286, 902.6222pt x 355.3275
->>>>>>> 182b2a4f250985f4bc5c3d4bb6a76c5be033690b
+<Ingo/Bilder/SimpleKMeans1000Attr32Cluster_5.png, id=347, 902.6222pt x 355.3275
 pt>
 File: Ingo/Bilder/SimpleKMeans1000Attr32Cluster_5.png Graphic file (type png)
  <use Ingo/Bilder/SimpleKMeans1000Attr32Cluster_5.png>
@@ -778,11 +671,7 @@ Package pdftex.def Info: Ingo/Bilder/SimpleKMeans1000Attr32Cluster_5.png used o
 n input line 63.
 (pdftex.def)             Requested size: 418.25368pt x 164.65085pt.
 
-<<<<<<< HEAD
-<Ingo/Bilder/SimpleKMeans1000Attr32Cluster_6.png, id=345, 161.85469pt x 231.866
-=======
-<Ingo/Bilder/SimpleKMeans1000Attr32Cluster_6.png, id=287, 161.85469pt x 231.866
->>>>>>> 182b2a4f250985f4bc5c3d4bb6a76c5be033690b
+<Ingo/Bilder/SimpleKMeans1000Attr32Cluster_6.png, id=348, 161.85469pt x 231.866
 26pt>
 File: Ingo/Bilder/SimpleKMeans1000Attr32Cluster_6.png Graphic file (type png)
  <use Ingo/Bilder/SimpleKMeans1000Attr32Cluster_6.png>
@@ -790,11 +679,7 @@ Package pdftex.def Info: Ingo/Bilder/SimpleKMeans1000Attr32Cluster_6.png used o
 n input line 70.
 (pdftex.def)             Requested size: 418.25368pt x 599.21158pt.
 
-<<<<<<< HEAD
-<Ingo/Bilder/SimpleKMeans1000Attr32Cluster_15.png, id=346, 456.20438pt x 392.96
-=======
-<Ingo/Bilder/SimpleKMeans1000Attr32Cluster_15.png, id=288, 456.20438pt x 392.96
->>>>>>> 182b2a4f250985f4bc5c3d4bb6a76c5be033690b
+<Ingo/Bilder/SimpleKMeans1000Attr32Cluster_15.png, id=349, 456.20438pt x 392.96
 812pt>
 File: Ingo/Bilder/SimpleKMeans1000Attr32Cluster_15.png Graphic file (type png)
  <use Ingo/Bilder/SimpleKMeans1000Attr32Cluster_15.png>
@@ -803,25 +688,28 @@ on input line 78.
 (pdftex.def)             Requested size: 418.25368pt x 360.28784pt.
 )
 (C:\Users\Syzyryk\Data\Beleg\Ingo/Zusammenfassung.tex)
-(C:\Users\Syzyryk\Data\Beleg\Ingo/Ausblick.tex) [19 <C:/Users/Syzyryk/Data/Bele
-g/Ingo/Bilder/SimpleKMeans100Attr1024Cluster_15.png>] [20 <C:/Users/Syzyryk/Dat
+(C:\Users\Syzyryk\Data\Beleg\Ingo/Ausblick.tex) [20 <C:/Users/Syzyryk/Data/Bele
+g/Ingo/Bilder/SimpleKMeans100Attr1024Cluster_15.png>] [21 <C:/Users/Syzyryk/Dat
 a/Beleg/Ingo/Bilder/SimpleKMeans100Attr1024Cluster_49.png>]
-(C:\Users\Syzyryk\Data\Beleg\Arbeitsaufteilung.tex [21 <C:/Users/Syzyryk/Data/B
-eleg/Ingo/Bilder/SimpleKMeans100Attr1024Cluster_61.png>] [22 <C:/Users/Syzyryk/
+(C:\Users\Syzyryk\Data\Beleg\Arbeitsaufteilung.tex [22 <C:/Users/Syzyryk/Data/B
+eleg/Ingo/Bilder/SimpleKMeans100Attr1024Cluster_61.png>] [23 <C:/Users/Syzyryk/
 Data/Beleg/Ingo/Bilder/SimpleKMeans100Attr1024Cluster_86.png> <C:/Users/Syzyryk
 /Data/Beleg/Ingo/Bilder/SimpleKMeans100Attr1024Cluster_554.png> <C:/Users/Syzyr
-yk/Data/Beleg/Ingo/Bilder/SimpleKMeans1000Attr32Cluster_4.png>] [23 <C:/Users/S
-yzyryk/Data/Beleg/Ingo/Bilder/SimpleKMeans1000Attr32Cluster_5.png>] [24 <C:/Use
+yk/Data/Beleg/Ingo/Bilder/SimpleKMeans1000Attr32Cluster_4.png>] [24 <C:/Users/S
+yzyryk/Data/Beleg/Ingo/Bilder/SimpleKMeans1000Attr32Cluster_5.png>] [25 <C:/Use
 rs/Syzyryk/Data/Beleg/Ingo/Bilder/SimpleKMeans1000Attr32Cluster_6.png>]
-[25 <C:/Users/Syzyryk/Data/Beleg/Ingo/Bilder/SimpleKMeans1000Attr32Cluster_15.p
+[26 <C:/Users/Syzyryk/Data/Beleg/Ingo/Bilder/SimpleKMeans1000Attr32Cluster_15.p
 ng>]
 Anhang A.
-) [26
 
-]
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) [27
+
+] [28]
 Anhang B.
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 175.
-[27
+[29
 
 ]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 175.
@@ -829,15 +717,14 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 175.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 175.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 175.
 Package rerunfilecheck Info: File `master.out' has not changed.
-(rerunfilecheck)             Checksum: 4987DE691BA5F67AC2F85F22E5B4AE38;1907.
+(rerunfilecheck)             Checksum: 138FAC053947777CF88F1BA4480CD60C;1988.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 175.
  ) 
 Here is how much of TeX's memory you used:
-<<<<<<< HEAD
- 8797 strings out of 493921
- 136658 string characters out of 3144871
- 255935 words of memory out of 3000000
- 11834 multiletter control sequences out of 15000+200000
+ 8802 strings out of 493921
+ 136702 string characters out of 3144871
+ 261238 words of memory out of 3000000
+ 11842 multiletter control sequences out of 15000+200000
  9301 words of font info for 33 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  45i,9n,55p,1045b,513s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -848,29 +735,9 @@ rogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsl12.pfb><C:/Pro
 gram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Pro
 gram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Progr
 am Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on master.pdf (35 pages, 535665 bytes).
+Output written on master.pdf (36 pages, 540936 bytes).
 PDF statistics:
- 456 PDF objects out of 1000 (max. 8388607)
+ 473 PDF objects out of 1000 (max. 8388607)
  100 named destinations out of 1000 (max. 500000)
- 292 words of extra memory for PDF output out of 10000 (max. 10000000)
-=======
- 8696 strings out of 494045
- 136706 string characters out of 3145972
- 251149 words of memory out of 3000000
- 11759 multiletter control sequences out of 15000+200000
- 9007 words of font info for 32 fonts, out of 3000000 for 9000
- 715 hyphenation exceptions out of 8191
- 45i,9n,55p,1073b,392s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
-<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:
-/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsl12.pfb><C:/P
-rogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/P
-rogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Pro
-gram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on master.pdf (29 pages, 506807 bytes).
-PDF statistics:
- 391 PDF objects out of 1000 (max. 8388607)
- 78 named destinations out of 1000 (max. 500000)
- 260 words of extra memory for PDF output out of 10000 (max. 10000000)
->>>>>>> 182b2a4f250985f4bc5c3d4bb6a76c5be033690b
+ 300 words of extra memory for PDF output out of 10000 (max. 10000000)
 
