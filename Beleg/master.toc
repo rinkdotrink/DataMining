@@ -8,17 +8,18 @@
 \contentsline {section}{\numberline {1.5}Testrechner}{2}{section.1.5}
 \contentsline {section}{\numberline {1.6}Der Aufbau des Alten Testaments}{2}{section.1.6}
 \contentsline {section}{\numberline {1.7}ARFF}{3}{section.1.7}
-\contentsline {section}{\numberline {1.8}Wie kann das AT in das ARFF-Format \"uberf\"uhrt werden?}{5}{section.1.8}
-\contentsline {section}{\numberline {1.9}Analyse Text2ARFFConverter}{5}{section.1.9}
-\contentsline {section}{\numberline {1.10}Entwurf Text2ARFFConverter}{6}{section.1.10}
-\contentsline {section}{\numberline {1.11}Nach welchen W\"orter sollte geclustert werden?}{8}{section.1.11}
-\contentsline {section}{\numberline {1.12}H\"urden beim Einlesen der ARFF-Datei}{8}{section.1.12}
-\contentsline {section}{\numberline {1.13}SimpleKMeans}{9}{section.1.13}
-\contentsline {section}{\numberline {1.14}Weitere Cluster-Algorithmen}{10}{section.1.14}
-\contentsline {section}{\numberline {1.15}geclusterte Instanzen wieder in Verse verwandeln}{10}{section.1.15}
-\contentsline {chapter}{\numberline {2}Umsetzung}{13}{chapter.2}
-\contentsline {section}{\numberline {2.1}Zusammenfassung}{13}{section.2.1}
-\contentsline {section}{\numberline {2.2}Ausblick}{13}{section.2.2}
-\contentsline {chapter}{\numberline {A}Codebeispiele}{14}{appendix.A}
-\contentsline {chapter}{\numberline {B}Arbeitsaufteilung}{18}{appendix.B}
-\contentsline {chapter}{\numberline {C}Eigenst\"andigkeitserkl\"arung}{19}{appendix.C}
+\contentsline {chapter}{\numberline {2}Umsetzung}{6}{chapter.2}
+\contentsline {section}{\numberline {2.1}Wie kann das AT in das ARFF-Format \"uberf\"uhrt werden?}{6}{section.2.1}
+\contentsline {section}{\numberline {2.2}Analyse Text2ARFFConverter}{6}{section.2.2}
+\contentsline {section}{\numberline {2.3}Entwurf Text2ARFFConverter}{6}{section.2.3}
+\contentsline {section}{\numberline {2.4}Nach welchen W\"ortern sollte geclustert werden?}{7}{section.2.4}
+\contentsline {section}{\numberline {2.5}H\"urden beim Einlesen der ARFF-Datei}{9}{section.2.5}
+\contentsline {section}{\numberline {2.6}SimpleKMeans}{10}{section.2.6}
+\contentsline {section}{\numberline {2.7}Weitere Cluster-Algorithmen}{10}{section.2.7}
+\contentsline {section}{\numberline {2.8}geclusterte Instanzen wieder in Verse verwandeln}{11}{section.2.8}
+\contentsline {section}{\numberline {2.9}AT mit SimpleKMeans geclustert}{12}{section.2.9}
+\contentsline {section}{\numberline {2.10}Zusammenfassung}{14}{section.2.10}
+\contentsline {section}{\numberline {2.11}Ausblick}{15}{section.2.11}
+\contentsline {chapter}{\numberline {A}Codebeispiele}{21}{appendix.A}
+\contentsline {chapter}{\numberline {B}Arbeitsaufteilung}{25}{appendix.B}
+\contentsline {chapter}{\numberline {C}Eigenst\"andigkeitserkl\"arung}{26}{appendix.C}

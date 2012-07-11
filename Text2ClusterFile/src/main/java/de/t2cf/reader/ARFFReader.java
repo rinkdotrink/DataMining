@@ -24,7 +24,7 @@ public class ARFFReader {
 	public Map<Integer, Integer> createLineNumberClusterNumberMap() {
 		try {
 			BufferedReader in = new BufferedReader(new FileReader(
-					"InputFile\\sparseArffC.arff"));
+					"InputFile\\SimpleKMeans100Attribute1024Cluster.arff"));
 			String line = null;
 			while ((line = in.readLine()) != null) {
 				if (dataSection) {
